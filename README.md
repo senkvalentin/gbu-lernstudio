@@ -4,7 +4,7 @@ Eine interaktive Lernplattform zur Vorbereitung auf die Lehrveranstaltung Grundl
 
 **Unabhängiges studentisches Lernprojekt. Keine offizielle Anwendung der TU Wien.**
 
-Das Projekt hilft dabei, eigene Lernmaterialien wiederholt zu bearbeiten und den persönlichen Übungsstand im Blick zu behalten. Die öffentliche Fassung enthält ausschließlich eine selbst formulierte Demonstrationsfrage. Originalunterlagen, Prüfungsfragen, Lösungen und daraus abgeleitete Datensätze werden mangels dokumentierter Weitergabefreigabe nicht veröffentlicht.
+Das Projekt hilft dabei, eigene Lernmaterialien wiederholt zu bearbeiten und den persönlichen Übungsstand im Blick zu behalten. Das Repository enthält die Fragenbank `questions.json` sowie eine selbst formulierte Demonstrationsfrage als Fallback. Die Original-PDF und lokale Prüfprotokolle bleiben ausgeschlossen.
 
 ## Funktionen
 
@@ -33,7 +33,7 @@ python3 -m http.server 8080 --bind 127.0.0.1
 
 Anschließend [localhost:8080](http://localhost:8080) öffnen. Beenden mit `Ctrl+C`. Die HTML-Datei nicht direkt über `file://` öffnen. Einen Buildbefehl gibt es nicht.
 
-Ohne eigene `questions.json` lädt die App `examples/questions.demo.json`. Eigene autorisierte Daten werden wie in [Datenformat und Import](docs/DATEN.md) beschrieben lokal bereitgestellt. Der Python-Webserver stellt auch ignorierte Dateien im gewählten Ordner bereit: nur lokal betreiben und bei öffentlichem Hosting ausschließlich freigegebene Dateien hochladen.
+Die mitgelieferte `questions.json` wird beim Start geladen. Ohne diese Datei lädt die App `examples/questions.demo.json`. Eigene autorisierte Daten werden wie in [Datenformat und Import](docs/DATEN.md) beschrieben lokal bereitgestellt. Der Python-Webserver stellt auch ignorierte Dateien im gewählten Ordner bereit: nur lokal betreiben und bei öffentlichem Hosting ausschließlich freigegebene Dateien hochladen.
 
 ## Bedienung und Lernmodi
 
@@ -54,6 +54,7 @@ style.css                     Layout und Farbschemata
 manifest.webmanifest          PWA-Metadaten
 sw.js                         Offline-Cache
 icon.svg                      App-Symbol
+questions.json                Fragenbank
 examples/questions.demo.json  Eigener, öffentlicher Beispieldatensatz
 build_data.py                 Optionaler historischer PDF-Importer
 docs/DATEN.md                Datenformat und lokale Quelldaten
@@ -66,7 +67,7 @@ Versuche enthalten Frage-ID, Zeitstempel, Antwortauswahl, Korrektheit, Punkte un
 
 Browserdaten sind weder verschlüsselt noch geräteübergreifend gesichert. Der JSON-Export enthält **nicht** die Lesemarkierungen, die letzte Antwortreihenfolge oder das separat gespeicherte Farbschema; eine Import-/Wiederherstellungsfunktion ist nicht implementiert. Löschen der Website-Daten entfernt den lokalen Fortschritt. Fragenbank-IDs nach Beginn des Lernens stabil halten.
 
-Eigene Fragen und PDFs bleiben durch `.gitignore` lokal. Sie werden beim Aufrufen vom jeweiligen Webserver an den Browser ausgeliefert. Die öffentliche Offline-Vorablage enthält nur Oberfläche und Demo; private Fragen und PDFs werden nicht gezielt für Offlinebetrieb vorab gespeichert. Service Worker und Installierbarkeit benötigen HTTPS oder localhost; Unterstützung und Installation hängen vom Browser ab.
+Die Fragenbank `questions.json` wird mit Git versioniert. PDFs bleiben durch `.gitignore` lokal. Sie werden beim Aufrufen vom jeweiligen Webserver an den Browser ausgeliefert. Die öffentliche Offline-Vorablage enthält nur Oberfläche und Demo; private Fragen und PDFs werden nicht gezielt für Offlinebetrieb vorab gespeichert. Service Worker und Installierbarkeit benötigen HTTPS oder localhost; Unterstützung und Installation hängen vom Browser ab.
 
 ## Bekannte Einschränkungen
 

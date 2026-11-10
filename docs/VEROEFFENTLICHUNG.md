@@ -1,5 +1,7 @@
 # Veröffentlichung und Repository-Einstellungen
 
+Aktueller Stand: Auf Wunsch des Repository-Inhabers wird `questions.json` mit versioniert und veröffentlicht. Die nachstehenden Angaben dokumentieren die frühere Erstveröffentlichung mit Demodaten. Die Original-PDF und lokalen Prüfprotokolle bleiben ausgeschlossen.
+
 Für die öffentliche Erstveröffentlichung wurden ausschließlich diese Dateien geprüft: `.gitignore`, `README.md`, `app.js`, `build_data.py`, `docs/`, `examples/questions.demo.json`, `icon.svg`, `index.html`, `manifest.webmanifest`, `style.css`, `sw.js`.
 
 Die Original-PDF, die daraus abgeleitete `questions.json`, Audit-CSV-Dateien, Konfliktentscheidungen und lokale Versions-/Import-/Reparaturprotokolle bleiben ausgeschlossen. Es lag keine lokale Git-Historie vor; das Zielrepository wurde vor Veröffentlichung als leer gemeldet. In den geprüften Veröffentlichungsdateien wurden keine Zugangsdaten gefunden. Dies ist keine umfassende Rechteprüfung der ursprünglichen privaten Lernmaterialien.

@@ -1,10 +1,10 @@
-# Eigene Lernmaterialien lokal bereitstellen
+# Fragenbank und lokale Lernmaterialien
 
-Nur Material verwenden, für das du die erforderlichen Nutzungsrechte hast. Eine lokale Nutzungserlaubnis ist keine Freigabe für öffentliche Weitergabe. Der ursprüngliche Fragenkatalog, das Original-PDF und die daraus abgeleiteten Prüfprotokolle sind nicht Bestandteil dieser Veröffentlichung.
+Nur Material verwenden, für das du die erforderlichen Nutzungsrechte hast. Eine lokale Nutzungserlaubnis ist keine Freigabe für öffentliche Weitergabe. Die Fragenbank `questions.json` ist Bestandteil des Repositorys. Das Original-PDF und lokale Prüfprotokolle bleiben ausgeschlossen.
 
 ## Fragenbank
 
-Die Datei `examples/questions.demo.json` als Ausgangspunkt nach `questions.json` im Projektstamm kopieren und durch eigene autorisierte Fragen ersetzen. Beide Dateien enthalten ein JSON-Array. `questions.json` ist von Git ausgeschlossen und hat beim Laden Vorrang vor der Demo.
+Die mitgelieferte Datei `questions.json` im Projektstamm enthält die Fragenbank. Für eine neue Fragenbank kann `examples/questions.demo.json` als Ausgangspunkt dienen. Beide Dateien enthalten ein JSON-Array. `questions.json` wird mit Git versioniert und hat beim Laden Vorrang vor der Demo.
 
 Pflichtfelder je Frage:
 

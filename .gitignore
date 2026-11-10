@@ -33,7 +33,6 @@ coverage/
 .vscode/
 # Private Lernmaterialien und abgeleitete Inhalte
 *.pdf
-questions.json
 local-data/
 private/
 *lernfortschritt*.json
