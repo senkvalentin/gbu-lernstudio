@@ -32,7 +32,8 @@ def build():
         if target.is_symlink() or any(p.is_symlink() for p in target.parents if p != ROOT):
             raise RuntimeError('Refusing symlink target: '+str(target))
         target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(ROOT/filename, target)
+        source = 'data/question-catalog-audit.json' if filename == 'reports/question-catalog-audit.json' else filename
+        shutil.copyfile(ROOT/source, target)
     print(f'Production artifact: {dest} ({len(files)} explicitly selected files). No deployment.')
 
 if __name__ == '__main__':

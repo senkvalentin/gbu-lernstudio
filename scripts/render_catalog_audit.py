@@ -10,7 +10,7 @@ def cell(value):
 def key(indices):
     return ', '.join(str(i + 1) for i in indices) or 'nicht freigegeben'
 def render():
-    audit = load('reports/question-catalog-audit.json')
+    audit = load('data/question-catalog-audit.json')
     catalog = load('questions.json')
     by_id = {q['id']: q for q in catalog}
     summary = audit['summary']

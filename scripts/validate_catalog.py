@@ -57,7 +57,7 @@ def validate_schema(value, schema, location='$'):
 def validate():
     catalog = load('questions.json')
     validate_schema(catalog, load('schemas/questions.schema.json'))
-    audit = load('reports/question-catalog-audit.json')
+    audit = load('data/question-catalog-audit.json')
     errors = []
     def check(condition, message):
         if not condition:

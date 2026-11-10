@@ -87,7 +87,7 @@ Es wurde keine Open-Source-Lizenz festgelegt; das öffentliche Repository erteil
 
 ## Fragenkatalog-Audit und Prüfungen
 
-Der [Auditbericht](reports/question-catalog-audit.md) ordnet jede der 177 studentischen Importfragen zu. Der finale Bestand umfasst 278 Fragen; 203 erfüllen das aktuelle Bewertungsformat. Ungeklärte Fragen bleiben mit ihren IDs im Lesebuch erhalten. Die maschinenlesbare Fassung liegt in [question-catalog-audit.json](reports/question-catalog-audit.json).
+Die [Auditdaten](data/question-catalog-audit.json) ordnen jede der 177 studentischen Importfragen zu. Der finale Bestand umfasst 278 Fragen; 203 erfüllen das aktuelle Bewertungsformat. Ungeklärte Fragen bleiben mit ihren IDs im Lesebuch erhalten. Generierte Berichte liegen lokal unter `reports/` und werden nicht versioniert.
 
 ```sh
 python3 scripts/validate_catalog.py

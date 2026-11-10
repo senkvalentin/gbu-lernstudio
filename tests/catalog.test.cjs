@@ -6,7 +6,7 @@ const path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const source=fs.readFileSync(path.join(root,'app.js'),'utf8');
 const catalog=JSON.parse(fs.readFileSync(path.join(root,'questions.json'),'utf8'));
-const audit=JSON.parse(fs.readFileSync(path.join(root,'reports/question-catalog-audit.json'),'utf8'));
+const audit=JSON.parse(fs.readFileSync(path.join(root,'data/question-catalog-audit.json'),'utf8'));
 function app(initial={}){
  const data=new Map(Object.entries(initial)),writes=[];
  const nodes=new Map();

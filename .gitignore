@@ -44,3 +44,14 @@ KONTEXT_*.csv
 REPARATUR*.md
 REPARATUR*.csv
 VERSION_*.md
+
+# Lokale Berichte und Testartefakte
+/reports/
+htmlcov/
+.coverage
+.coverage.*
+playwright-report/
+test-results/
+*.bak
+*.orig
+*~
