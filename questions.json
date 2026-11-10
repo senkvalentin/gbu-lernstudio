@@ -17,18 +17,27 @@
     ],
     "sourceAnswer": "1 & 2 (bestätigt)",
     "explanation": "S. 10 • Menschliche Arbeit(skraft) • Werkstoffe • Informationen • Betriebsmittel • Rohstoffe, Hilfs- und Betriebsstoffe • Energie",
-    "flags": [],
-    "independentExplanation": "Produktion entsteht, wenn Menschen, Material und Betriebsmittel zusammenwirken. Im Katalog wird hier besonders auf „Rohstoffe, Hilfs- und Betriebsstoffe / Werkstoffe; Menschliche Arbeit“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Grundstück ist bei betrieblicher Nutzung selbst ein Betriebsmittel bzw. Produktionsfaktor. Der Schlüssel mit genau zwei Antworten schließt es ohne Modellabgrenzung aus. Die PDF-Faktorliste nennt Betriebsmittel. Keine willkürliche Änderung des Originals.",
     "memoryExample": "Eine Bäckerei braucht nicht nur Mehl, sondern auch Ofen, Personal und einen Plan.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Grundstück ist bei betrieblicher Nutzung selbst ein Betriebsmittel bzw. Produktionsfaktor. Der Schlüssel mit genau zwei Antworten schließt es ohne Modellabgrenzung aus. Die PDF-Faktorliste nennt Betriebsmittel. Keine willkürliche Änderung des Originals.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Grundstück ist bei betrieblicher Nutzung selbst ein Betriebsmittel bzw. Produktionsfaktor. Der Schlüssel mit genau zwei Antworten schließt es ohne Modellabgrenzung aus. Die PDF-Faktorliste nennt Betriebsmittel. Keine willkürliche Änderung des Originals.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 2,
@@ -48,18 +57,27 @@
     ],
     "sourceAnswer": "1 & 4",
     "explanation": "S.12 B e ka nn t e Pro d u kt ion s funktion e n s ind: • Co b b - Dou g l as - Produktion s funktion e n (substitutionale Produktionsfunktion) • L eo n t i e f - Produk t ion s funktion ( limitational e Produktionsfunktion) • Die Gutenberg-Produktionsfunktion ist wie alle anderen Produktionsfunktionen ein theoretisches Modell, das Zusammenhänge zwischen den bei der Produktion verbrauchten Rohstoffmengen und den dabei erzeugten Produktionsmengen betrachtet. (substitutionale Produktionsfunktion)",
-    "flags": [],
-    "independentExplanation": "Produktionsfunktionen beschreiben, wie Einsatzmengen und Ausbringung zusammenhängen. Manche Faktoren sind austauschbar, andere nur in festen Verhältnissen kombinierbar. Im Katalog wird hier besonders auf „Cobb/Douglas-Produktionsfunktion / Gutenberg-Produktionsfunktion; Leontief-Produktionsfunktion“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Gutenberg ist ausdrücklich eine bekannte Produktionsfunktion (auch laut Erklärung auf PDF-Seite 1), wird aber als Option 2 ausgeschlossen; Option 1 enthält schon zwei Funktionsnamen. Original und Import haben unterschiedliche Optionen und Anzahlen. Ohne belegte eindeutige Fassung nicht bewerten.",
     "memoryExample": "Mehr Köche können eine kleine Küche nicht beliebig vergrößern: Irgendwann begrenzt der Ofen.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Gutenberg ist ausdrücklich eine bekannte Produktionsfunktion (auch laut Erklärung auf PDF-Seite 1), wird aber als Option 2 ausgeschlossen; Option 1 enthält schon zwei Funktionsnamen. Original und Import haben unterschiedliche Optionen und Anzahlen. Ohne belegte eindeutige Fassung nicht bewerten.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Gutenberg ist ausdrücklich eine bekannte Produktionsfunktion (auch laut Erklärung auf PDF-Seite 1), wird aber als Option 2 ausgeschlossen; Option 1 enthält schon zwei Funktionsnamen. Original und Import haben unterschiedliche Optionen und Anzahlen. Ohne belegte eindeutige Fassung nicht bewerten.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 3,
@@ -358,18 +376,28 @@
     ],
     "sourceAnswer": "3 & 4",
     "explanation": "S. 20 Die PPS unterstützt die gesamte Auftragsabwicklung von der Angebotsbearbeitung bis zum Versand. Damit hat die PPS die Aufgabe in all ihren Wirkungsbereichen den Prozess der Produkterstellung mengen-, termin- und kapazitätsmäßig zu planen und zu steuern. • Produktionsplanung • Mengenplanung • Termin- und Kapazitätsplanung • Auftragsveranlassung • Auftragsüberwachung • Datenverwaltung",
-    "flags": [],
-    "independentExplanation": "Stammdaten ändern sich selten, Bewegungsdaten entstehen durch laufende Vorgänge. Die Produktionssteuerung verbindet beides für Mengen, Termine und Kapazitäten. Im Katalog wird hier besonders auf „...kümmert sich um Termin- und Kapazitätsplanung; ...generiert Kundenaufträge für die Produktion“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: PPS wickelt Kundenaufträge ab; „generiert Kundenaufträge“ in Option 4 ist damit nicht gleichbedeutend. Der PDF-Schlüssel 3 & 4 und der Import 1 & 2 sind beide nicht ausreichend belegt. Option 3 ist sicher, zweite Antwort ungeklärt.",
     "memoryExample": "Eine Stückliste bleibt gleich, während täglich neue Bestellungen eingehen.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "PPS wickelt Kundenaufträge ab; „generiert Kundenaufträge“ in Option 4 ist damit nicht gleichbedeutend. Der PDF-Schlüssel 3 & 4 und der Import 1 & 2 sind beide nicht ausreichend belegt. Option 3 ist sicher, zweite Antwort ungeklärt.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "PPS wickelt Kundenaufträge ab; „generiert Kundenaufträge“ in Option 4 ist damit nicht gleichbedeutend. Der PDF-Schlüssel 3 & 4 und der Import 1 & 2 sind beide nicht ausreichend belegt. Option 3 ist sicher, zweite Antwort ungeklärt.",
+    "auditSources": [
+      "pdf",
+      "pps"
+    ]
   },
   {
     "id": 13,
@@ -1232,18 +1260,28 @@
     ],
     "sourceAnswer": "3",
     "explanation": "Qualitätsmanagement",
-    "flags": [],
-    "independentExplanation": "Beschaffung muss Versorgungssicherheit, Preis und Qualität ausbalancieren. Große Lager erhöhen Verfügbarkeit, binden aber Kapital. Im Katalog wird hier besonders auf „Maßnahmen zur Verbesserung der Lieferantenbeziehung“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: PDF nennt 3, Import nennt 4. Lieferantenbeziehungen zu verbessern ist grundsätzlich mit Entwicklung vereinbar; „Unterstützung durch den Lieferanten“ bezeichnet die umgekehrte Richtung. Ohne konkrete Lehrdefinition des Maßnahmenkatalogs bleibt der genaue Prüfungswortlaut strittig; alten Schlüssel nicht still übernehmen.",
     "memoryExample": "Ein Restaurant mit vollem Vorratsraum ist lieferfähig, zahlt dafür jedoch Lagerkosten und riskiert Verderb.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "PDF nennt 3, Import nennt 4. Lieferantenbeziehungen zu verbessern ist grundsätzlich mit Entwicklung vereinbar; „Unterstützung durch den Lieferanten“ bezeichnet die umgekehrte Richtung. Ohne konkrete Lehrdefinition des Maßnahmenkatalogs bleibt der genaue Prüfungswortlaut strittig; alten Schlüssel nicht still übernehmen.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "PDF nennt 3, Import nennt 4. Lieferantenbeziehungen zu verbessern ist grundsätzlich mit Entwicklung vereinbar; „Unterstützung durch den Lieferanten“ bezeichnet die umgekehrte Richtung. Ohne konkrete Lehrdefinition des Maßnahmenkatalogs bleibt der genaue Prüfungswortlaut strittig; alten Schlüssel nicht still übernehmen.",
+    "auditSources": [
+      "pdf",
+      "supplier"
+    ]
   },
   {
     "id": 41,
@@ -1388,18 +1426,28 @@
     ],
     "sourceAnswer": "1 & 2",
     "explanation": "S.48 PLAN-Phase (Planen) , in der die Ursachen der a u fget r ete n e n Probleme analysiert werden . I n de r DO-Phase (Durchführen) werden zunächst die no t wendig e n Voraussetzungen zur Dur c h fü h r ung d e r Verbess e rungsaktivitäten geschaffen und dana c h die Proz e sse bzw . V e r b e sse rung s maßnahmen durchgeführt Ei n V e r g l e ich der err e ichten Verbesserungen mit dem angestrebt e n Ziel e rfolgt in der CHECK - Phase (Prüfen) . In d e r ACT - Phase (Verbessern) werden die Ursachen für positive und negativ e Auswirkun ge n d e r V e rb e sserungsmaßnahmen untersucht, um festzustell e n , wo noch weitere Verb esse rung e n möglich sind.",
-    "flags": [],
-    "independentExplanation": "Qualitätsmanagement verhindert Fehler systematisch, statt nur fertige Produkte zu kontrollieren. Verschiedene Werkzeuge helfen bei Ursachenanalyse, Messung und Verbesserung. Im Katalog wird hier besonders auf „Act = Verbesserungsmaßnahmen umzusetzen; Check = Soll-/Ist-Vergleich nach Umsetzung der Verbesserungsmaßnahmen“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Import schreibt in Check „vor“, Original „nach“. Das ist fachlich entscheidend. Check prüft Ergebnisse nach Do. Die Abgrenzung von „Act = umsetzen“ und „Plan = Voraussetzungen schaffen“ ist im Original unscharf gegenüber gängigen PDCA-Definitionen. Keine eindeutige Zweierlösung ohne LV-Konvention.",
     "memoryExample": "Wenn ein Paketdienst oft zu spät liefert, untersucht man die Ursachen im Ablauf statt nur verspätete Pakete zu zählen.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Import schreibt in Check „vor“, Original „nach“. Das ist fachlich entscheidend. Check prüft Ergebnisse nach Do. Die Abgrenzung von „Act = umsetzen“ und „Plan = Voraussetzungen schaffen“ ist im Original unscharf gegenüber gängigen PDCA-Definitionen. Keine eindeutige Zweierlösung ohne LV-Konvention.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Import schreibt in Check „vor“, Original „nach“. Das ist fachlich entscheidend. Check prüft Ergebnisse nach Do. Die Abgrenzung von „Act = umsetzen“ und „Plan = Voraussetzungen schaffen“ ist im Original unscharf gegenüber gängigen PDCA-Definitionen. Keine eindeutige Zweierlösung ohne LV-Konvention.",
+    "auditSources": [
+      "pdf",
+      "pdca"
+    ]
   },
   {
     "id": 46,
@@ -1564,7 +1612,7 @@
     "id": 51,
     "chapter": "Qualitätsmanagement",
     "page": 15,
-    "text": "Welche Aussagen über die sieben Qualitätswerkzeuge (Q7) sind richtig?",
+    "text": "Welche Aussage über eines der sieben Qualitätswerkzeuge (Q7) stimmt nicht?",
     "correctCount": 1,
     "options": [
       "Das Fischgrätendiagramm (Ishikawa) ermöglicht eine (Fehler-)Analyse anhand von Ursache und Wirkung.",
@@ -1578,13 +1626,13 @@
     "sourceAnswer": "3",
     "explanation": "• Die lshikawa- oder Paretoanalyse dient zum Ordnen der Einflüsse nach deren Wichtigkeit. • Mit dem Pareto-Diagramm kann man Verbesserungsmaßnahmen zeitlich planen und umsetzen.(falsch) • Das Baumdiagramm glieder ein Thema in verschiedene Ebenen auf. • Mit der ABC Analyse kann man z.B. den bestand im Lager nach bestimmten Kriterien ordnen/gewichten.",
     "flags": [],
-    "independentExplanation": "Beschaffung muss Versorgungssicherheit, Preis und Qualität ausbalancieren. Große Lager erhöhen Verfügbarkeit, binden aber Kapital. Im Katalog wird hier besonders auf „Das Histogramm ermöglicht eine regelmäßige Kontrolle, ob ein Prozess innerhalb seiner Toleranzgrenzen arbeitet“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "independentExplanation": "Der Fragestamm auf PDF-Seite 15 lautet „Welche Aussage über eines der sieben Qualitätswerkzeuge (Q7) stimmt nicht?“. Die Optionen und Lösung 3 stehen auf Seite 16. Histogramme zeigen Häufigkeitsverteilungen; die regelmäßige Prozessüberwachung gehört zur Regelkarte. Der Import hatte die Negation durch einen anderen Fragetitel ersetzt. Optionen und Schlüssel bleiben erhalten.",
     "memoryExample": "Ein Restaurant mit vollem Vorratsraum ist lieferfähig, zahlt dafür jedoch Lagerkosten und riskiert Verderb.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Einzeln geprüft im Audit 2026-11-10; Quellen und vollständige Änderungen im Auditbericht.",
     "contextAudit": {
       "status": "repaired_from_pdf",
       "reason": "Fragetext anhand Original-PDF rekonstruiert; Antwortoptionen weiterhin separat auf Vollständigkeit prüfen",
@@ -1592,7 +1640,14 @@
     },
     "previousImportText": "",
     "repairVersion": "0.7",
-    "repairSource": "betriebs-u-fragen.pdf"
+    "repairSource": "betriebs-u-fragen.pdf",
+    "assessmentStatus": "verified",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Der Fragestamm auf PDF-Seite 15 lautet „Welche Aussage über eines der sieben Qualitätswerkzeuge (Q7) stimmt nicht?“. Die Optionen und Lösung 3 stehen auf Seite 16. Histogramme zeigen Häufigkeitsverteilungen; die regelmäßige Prozessüberwachung gehört zur Regelkarte. Der Import hatte die Negation durch einen anderen Fragetitel ersetzt. Optionen und Schlüssel bleiben erhalten.",
+    "auditSources": [
+      "pdf",
+      "q7"
+    ]
   },
   {
     "id": 52,
@@ -1743,14 +1798,16 @@
     ],
     "sourceAnswer": "1 & 2 (Achtung, nicht Q7 mit M7/N7 vertauschen)",
     "explanation": "S.49 Die 7 Management Werkzeuge (M7 genannt) unterstützen im Problemlösungsprozess das Finden und Ordnen von Informationen, sowie die Bewertung von Lösungen und die Umsetzung abgeleiteter Maßnahmen. Die M7 KVP Werkzeuge werden nie alle gleichzeitig bei der Problemlösung eingesetzt, vielmehr sind sie problemspezifisch auszuwählen und anzuwenden. Je nach Situation ist die Anwendung eines einzelnen Werkzeugs oder auch mehrerer, aufeinander aufbauender KVP Werkzeuge sinnvoll. Durch den Einsatz dieser Qualitätstechniken können Abläufe verbessert und Probleme gezielt gelöst werden. Der Einsatz der Techniken kostet vor allem Arbeitszeit , bringt aber einen viel höheren Nutzen durch sinkende Fehlerraten und z ufriedene Kund e n. Die Qualitätstechniken können in allen Organisationsformen e ingesetzt werden und sind dadurch zu einer wichtigen Unterstützung geworden. Di e Q7 verarbeiten vorwiegend Zahlen , sind leicht verständlich und mit e inf ac hen Hilf s mitteln wie Pinnwand , Stiften e t c. durchzuführen. Sie werden nach ihrem Zweck in di e b e id e n G ru p p e n F e hler e rf a s se n und F e hl e r a naly s i e r e n e ing ete ilt. • Im Netzplan werden Arbeitspakete eines Projekts logisch miteinander verknüpft. • Der Netzplan zeigt den zeitkritischen Pfad (=Engpass) eines Projekts auf • Mit dem Netzplan kann man Endzeitpunkt eines (Umsetzungs-)Projekts ermitteln • Das Relationendiagramm zeigt Wechselbeziehungen zwischen verschiedenen Argumenten und Sichtweisen auf • Mit den N7/M7 können Alternativen zur Problemlösungsfindung bewertet werden • Mit einer Qualitätsregelkarte wird ein Prozess bezüglich Einhaltung der Toleranzgrenzen überwacht. • Das Ursache-Wirkungsdiagramm wird auch als Ishikawa-Diagramm bezeichnet Welche Aussage über die sieben neuen Qualitätswerkzeuge (M7/N",
-    "flags": [],
-    "independentExplanation": "Qualitätsmanagement verhindert Fehler systematisch, statt nur fertige Produkte zu kontrollieren. Verschiedene Werkzeuge helfen bei Ursachenanalyse, Messung und Verbesserung. Im Katalog wird hier besonders auf „Relationsdiagramm und Affinitätsdiagramm (Cluster) dienen vor allem zur Problemanalyse; Das Baumdiagramm ermöglicht die Gliederung eines Problemes in mehrere Ebenen (in Abhängigkeit vom Detaillierungsgrad)“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Die Antworten 3 und 4 sind allgemeine Aussagen über Q7-Werkzeuge und sachlich zumindest teilweise zutreffend, aber keine M7-Zuordnung. Zudem sind Eingriffs- und Toleranzgrenzen zu unterscheiden. Der Fragetext grenzt dies nicht klar ab. Keine eindeutige Zweierbewertung.",
     "memoryExample": "Wenn ein Paketdienst oft zu spät liefert, untersucht man die Ursachen im Ablauf statt nur verspätete Pakete zu zählen.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "repaired_from_pdf",
       "reason": "Fragetext anhand Original-PDF rekonstruiert; Antwortoptionen weiterhin separat auf Vollständigkeit prüfen",
@@ -1758,7 +1815,16 @@
     },
     "previousImportText": "(M7/N7) sind richtig?",
     "repairVersion": "0.7",
-    "repairSource": "betriebs-u-fragen.pdf"
+    "repairSource": "betriebs-u-fragen.pdf",
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Die Antworten 3 und 4 sind allgemeine Aussagen über Q7-Werkzeuge und sachlich zumindest teilweise zutreffend, aber keine M7-Zuordnung. Zudem sind Eingriffs- und Toleranzgrenzen zu unterscheiden. Der Fragetext grenzt dies nicht klar ab. Keine eindeutige Zweierbewertung.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Die Antworten 3 und 4 sind allgemeine Aussagen über Q7-Werkzeuge und sachlich zumindest teilweise zutreffend, aber keine M7-Zuordnung. Zudem sind Eingriffs- und Toleranzgrenzen zu unterscheiden. Der Fragetext grenzt dies nicht klar ab. Keine eindeutige Zweierbewertung.",
+    "auditSources": [
+      "pdf",
+      "q7",
+      "m7"
+    ]
   },
   {
     "id": 57,
@@ -2088,22 +2154,29 @@
       "... eine Funktion, die die Nachfrage nach einem Gut als Funktion des Preises angibt."
     ],
     "answers": [
-      3
+      2
     ],
     "sourceAnswer": "4",
     "explanation": "S. 59-60 Die inverse Nachfragefunktion beschreibt den Preis als Funktion der Angebotsmenge. Die Nachfrage ist das Argument und der sich einstellende Preis der Funktionswert. Ein Markt, in dem sich der Preis so einstellt, dass sich Angebot und Nachfrage",
     "flags": [],
-    "independentExplanation": "Absatzentscheidungen hängen von Kundenbedarf, Preis und Wettbewerb ab. Bei wenigen Anbietern beeinflussen sich Unternehmen gegenseitig stärker. Im Katalog wird hier besonders auf „... eine Funktion, die die Nachfrage nach einem Gut als Funktion des Preises angibt“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "independentExplanation": "Inverse Nachfrage bildet die Menge auf den erzielbaren Preis ab, also Antwort 3. Antwort 4 ist die direkte Nachfragefunktion; Angebot und Reklamationen sind andere Sachverhalte. Schon der Erklärungstext auf PDF-Seite 21 widerspricht dem dortigen Schlüssel 4.",
     "memoryExample": "Wenn zwei Cafés nebeneinander liegen, kann eine Preiserhöhung Kunden direkt zum anderen treiben.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Einzeln geprüft im Audit 2026-11-10; Quellen und vollständige Änderungen im Auditbericht.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "verified",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Inverse Nachfrage bildet die Menge auf den erzielbaren Preis ab, also Antwort 3. Antwort 4 ist die direkte Nachfragefunktion; Angebot und Reklamationen sind andere Sachverhalte. Schon der Erklärungstext auf PDF-Seite 21 widerspricht dem dortigen Schlüssel 4.",
+    "auditSources": [
+      "pdf",
+      "monopoly"
+    ]
   },
   {
     "id": 68,
@@ -2156,18 +2229,28 @@
     ],
     "sourceAnswer": "1",
     "explanation": "S. 60 Ein e n Markt , in dem sich ein G l e i chgew i c h t a us An ge bot un d N ac h frage einstel l t , in de m s ich d e r Pr e is s o einstellt , dass d i e gesa m te A ng e bot s m e n ge e in es Gutes genau der ge s amt e n M arktnachfrage ents p r i c h t, n e nn t m a n vollkomm e n e n M a rk t . E in An st i eg d e r M a rktn ac hfr a g e drückt sich in e in er V e r sc hi e bun g d e r inv e r se n Nachfragefunktion nac h r ec ht s a u s und üb e rs e tzt s i ch in ste i ge nd e Pr e i se.E rw e it e ru ng der Pro duk t i onska p az i tä te n ( z .B. durch de n Markteintritt e in es Mitb e w e rb e r s) od e r produ kti on s k oste n se n ke n de I nnov a tion e n ve rs c hi e ben d i e Angebotsfunktion n ac h r e ch ts u nd fü h ren so zu s in kende n Pr e i se n .",
-    "flags": [],
-    "independentExplanation": "Absatzentscheidungen hängen von Kundenbedarf, Preis und Wettbewerb ab. Bei wenigen Anbietern beeinflussen sich Unternehmen gegenseitig stärker. Im Katalog wird hier besonders auf „in dem der Preis sich so einstellt, das die Angebotsmenge gleich der Nachfragemenge ist“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: PDF und Import wählen Marktgleichgewicht als einzige Antwort. Zugleich ist Preisnehmerschaft eine Standardannahme vollständiger Konkurrenz. „Vollkommener Markt“ und Wettbewerb werden hier ohne explizite LV-Definition vermischt. Nicht durch eine allgemeine externe Definition überschreiben.",
     "memoryExample": "Wenn zwei Cafés nebeneinander liegen, kann eine Preiserhöhung Kunden direkt zum anderen treiben.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "PDF und Import wählen Marktgleichgewicht als einzige Antwort. Zugleich ist Preisnehmerschaft eine Standardannahme vollständiger Konkurrenz. „Vollkommener Markt“ und Wettbewerb werden hier ohne explizite LV-Definition vermischt. Nicht durch eine allgemeine externe Definition überschreiben.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "PDF und Import wählen Marktgleichgewicht als einzige Antwort. Zugleich ist Preisnehmerschaft eine Standardannahme vollständiger Konkurrenz. „Vollkommener Markt“ und Wettbewerb werden hier ohne explizite LV-Definition vermischt. Nicht durch eine allgemeine externe Definition überschreiben.",
+    "auditSources": [
+      "pdf",
+      "monopoly"
+    ]
   },
   {
     "id": 70,
@@ -2321,25 +2404,35 @@
     ],
     "sourceAnswer": "1 & 4",
     "explanation": "Setzt ein Unternehmen im Monopol den Preis für sein Produkt gewinnoptimal,",
-    "flags": [],
-    "independentExplanation": "Absatzentscheidungen hängen von Kundenbedarf, Preis und Wettbewerb ab. Bei wenigen Anbietern beeinflussen sich Unternehmen gegenseitig stärker. Im Katalog wird hier besonders auf „sie durch Verknappung der Angebotsmenge den Gleichgewichtspreis erhöhen können; sie Konkurrenten aus dem Markt drängen können“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Die fallende inverse Nachfrage in Option 2 ist ebenfalls ein Hinweis auf Marktmacht. Verdrängung in Option 4 ist weder zwingend noch eine allgemeine Definition. Der Zweier-Schlüssel 1 & 4 bleibt ohne LV-Kontext zweifelhaft.",
     "memoryExample": "Wenn zwei Cafés nebeneinander liegen, kann eine Preiserhöhung Kunden direkt zum anderen treiben.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "needs_context_review",
       "reason": "Formulierung ist kurz/elliptisch; mit den Antwortmöglichkeiten möglicherweise eigenständig lösbar"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Die fallende inverse Nachfrage in Option 2 ist ebenfalls ein Hinweis auf Marktmacht. Verdrängung in Option 4 ist weder zwingend noch eine allgemeine Definition. Der Zweier-Schlüssel 1 & 4 bleibt ohne LV-Kontext zweifelhaft.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Die fallende inverse Nachfrage in Option 2 ist ebenfalls ein Hinweis auf Marktmacht. Verdrängung in Option 4 ist weder zwingend noch eine allgemeine Definition. Der Zweier-Schlüssel 1 & 4 bleibt ohne LV-Kontext zweifelhaft.",
+    "auditSources": [
+      "pdf",
+      "monopoly"
+    ]
   },
   {
     "id": 75,
     "chapter": "Absatzmanagement",
     "page": 25,
     "text": "Setzt ein Unternehmen im Monopol den Preis für sein Produkt gewinnoptimal, dann...",
-    "correctCount": 1,
+    "correctCount": 2,
     "options": [
       "ist die Nachfrage keinesfalls im inelastischen Bereich",
       "ist der Grenzerlös gleich den Grenzkosten",
@@ -2347,18 +2440,19 @@
       "ist der Grenzgewinn gleich den Grenzkosten"
     ],
     "answers": [
+      0,
       1
     ],
     "sourceAnswer": "2",
     "explanation": "S. 66 Die gewinnoptimale Absatzmenge / der gewinnoptimale Preis wird so bestimmt, dass der Grenzerlös gleich den Grenzkosten ist. Setzt ein Unternehmen im Monopol den Preis für sein Produkt erlösoptimal,",
     "flags": [],
-    "independentExplanation": "Absatzentscheidungen hängen von Kundenbedarf, Preis und Wettbewerb ab. Bei wenigen Anbietern beeinflussen sich Unternehmen gegenseitig stärker. Im Katalog wird hier besonders auf „ist der Grenzerlös gleich den Grenzkosten“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "independentExplanation": "Im üblichen differenzierbaren Monopolmodell mit nichtnegativen Grenzkosten und positivem Absatz gilt im inneren Gewinnmaximum Grenzerlös = Grenzkosten. Ein inelastischer Bereich mit negativem Grenzerlös ist dann ausgeschlossen. Daher sind 1 und 2 richtig; Grenzerlös = 0 gilt speziell für Erlösmaximierung, Grenzgewinn = Grenzkosten ist keine allgemeine Optimalitätsbedingung. Randlösungen oder negative Grenzkosten fallen nicht unter dieses Lehrmodell.",
     "memoryExample": "Wenn zwei Cafés nebeneinander liegen, kann eine Preiserhöhung Kunden direkt zum anderen treiben.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Einzeln geprüft im Audit 2026-11-10; Quellen und vollständige Änderungen im Auditbericht.",
     "contextAudit": {
       "status": "repaired_from_pdf",
       "reason": "Fragetext anhand Original-PDF rekonstruiert; Antwortoptionen weiterhin separat auf Vollständigkeit prüfen",
@@ -2366,7 +2460,14 @@
     },
     "previousImportText": "dann...",
     "repairVersion": "0.7",
-    "repairSource": "betriebs-u-fragen.pdf"
+    "repairSource": "betriebs-u-fragen.pdf",
+    "assessmentStatus": "verified",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Im üblichen differenzierbaren Monopolmodell mit nichtnegativen Grenzkosten und positivem Absatz gilt im inneren Gewinnmaximum Grenzerlös = Grenzkosten. Ein inelastischer Bereich mit negativem Grenzerlös ist dann ausgeschlossen. Daher sind 1 und 2 richtig; Grenzerlös = 0 gilt speziell für Erlösmaximierung, Grenzgewinn = Grenzkosten ist keine allgemeine Optimalitätsbedingung. Randlösungen oder negative Grenzkosten fallen nicht unter dieses Lehrmodell.",
+    "auditSources": [
+      "pdf",
+      "monopoly"
+    ]
   },
   {
     "id": 76,
@@ -2577,18 +2678,27 @@
     ],
     "sourceAnswer": "1 & 2 & 3",
     "explanation": "S.71 E r s t k a nn dann von einer Innov at ion g e spro c h e n w e rd e n , w e nn e in e Durc hs e tzun g a m M a rkt - d as h e ißt e in e Diffusion der Innovation - e rfol gt i s t. Di es i st vor a ll e m für Pro d uktin n ov a tion e n r e l e v a nt a ber a u c h P ro z e ssinnov a tio ne n mü s sen sich inn e rhalb d e s Unt e rn e h me ns durch se t ze n und d e n unt e rnehmen s int e rn e n Wid e r s ta nd g e g e n V e r ä nd e run g üb e rwinden . Die Diffusion im Zeitablauf folgt einem glockenähnlichen Verlauf wobei in den verschiedenen Phasen der Diffusion unterschiedliche Käufertypen auftreten.",
-    "flags": [],
-    "independentExplanation": "Absatzentscheidungen hängen von Kundenbedarf, Preis und Wettbewerb ab. Bei wenigen Anbietern beeinflussen sich Unternehmen gegenseitig stärker. Im Katalog wird hier besonders auf „eines Produkts am Markt ist Voraussetzung um von einer Innovation sprechen zu können; bedeutet: der Prozess, bei dem eine Innovation über verschiedene Kommunikationskanäle im Zeitablauf den Mitgliedern eines sozialen Systems kommu“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Glockenkurve beschreibt neue Adoptionen pro Periode, S-Kurve die kumulierte Verbreitung. „im Zeitablauf“ unterscheidet diese Größen nicht. Markteinführung und breite Diffusion sind außerdem nicht gleichzusetzen. PDF und Import stimmen zwar überein, aber das beweist die Dreierlösung nicht.",
     "memoryExample": "Wenn zwei Cafés nebeneinander liegen, kann eine Preiserhöhung Kunden direkt zum anderen treiben.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Glockenkurve beschreibt neue Adoptionen pro Periode, S-Kurve die kumulierte Verbreitung. „im Zeitablauf“ unterscheidet diese Größen nicht. Markteinführung und breite Diffusion sind außerdem nicht gleichzusetzen. PDF und Import stimmen zwar überein, aber das beweist die Dreierlösung nicht.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Glockenkurve beschreibt neue Adoptionen pro Periode, S-Kurve die kumulierte Verbreitung. „im Zeitablauf“ unterscheidet diese Größen nicht. Markteinführung und breite Diffusion sind außerdem nicht gleichzusetzen. PDF und Import stimmen zwar überein, aber das beweist die Dreierlösung nicht.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 83,
@@ -2608,18 +2718,27 @@
     ],
     "sourceAnswer": "1 & 4",
     "explanation": "",
-    "flags": [],
-    "independentExplanation": "Innovation bedeutet nicht nur eine Idee, sondern ihre erfolgreiche Umsetzung. Frühe Nutzer liefern oft Hinweise auf spätere Marktbedürfnisse. Im Katalog wird hier besonders auf „im Zeitablauf einen glockenähnlichen Verlauf der Verbreitung der Innovation; die Verbreitung einer Innovation über verschiedene Kommunikationskanäle im Zeitablauf“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Wie bei #82 ist nicht festgelegt, ob periodische Neuadoptionen oder kumulierte Verbreitung gemeint sind. Glocken- und S-Kurve beziehen sich auf verschiedene Größen; der Zweierschlüssel ist ohne diese Abgrenzung nicht eindeutig.",
     "memoryExample": "Ein begeisterter Radfahrer testet eine neue Navigationsfunktion, lange bevor sie im Massenmarkt ankommt.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Wie bei #82 ist nicht festgelegt, ob periodische Neuadoptionen oder kumulierte Verbreitung gemeint sind. Glocken- und S-Kurve beziehen sich auf verschiedene Größen; der Zweierschlüssel ist ohne diese Abgrenzung nicht eindeutig.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Wie bei #82 ist nicht festgelegt, ob periodische Neuadoptionen oder kumulierte Verbreitung gemeint sind. Glocken- und S-Kurve beziehen sich auf verschiedene Größen; der Zweierschlüssel ist ohne diese Abgrenzung nicht eindeutig.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 84,
@@ -3519,18 +3638,27 @@
     ],
     "sourceAnswer": "2 & 3",
     "explanation": "Repetitierfaktoren werden in der Leistungserstellung verbraucht.",
-    "flags": [],
-    "independentExplanation": "Beschaffung muss Versorgungssicherheit, Preis und Qualität ausbalancieren. Große Lager erhöhen Verfügbarkeit, binden aber Kapital. Im Katalog wird hier besonders auf „werden im Zuge der Produktion verbraucht; sind nach der Produktion im Produkt enthalten“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Nicht lagerbar in Option 1 ist für Material unzutreffend; der Import kehrt die Aussage um. Nicht jeder verbrauchte Betriebsstoff geht körperlich ins Produkt ein. Der pauschale Schlüssel und die beschädigten Importoptionen erlauben keine zuverlässige Bewertung.",
     "memoryExample": "Ein Restaurant mit vollem Vorratsraum ist lieferfähig, zahlt dafür jedoch Lagerkosten und riskiert Verderb.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Nicht lagerbar in Option 1 ist für Material unzutreffend; der Import kehrt die Aussage um. Nicht jeder verbrauchte Betriebsstoff geht körperlich ins Produkt ein. Der pauschale Schlüssel und die beschädigten Importoptionen erlauben keine zuverlässige Bewertung.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Nicht lagerbar in Option 1 ist für Material unzutreffend; der Import kehrt die Aussage um. Nicht jeder verbrauchte Betriebsstoff geht körperlich ins Produkt ein. Der pauschale Schlüssel und die beschädigten Importoptionen erlauben keine zuverlässige Bewertung.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 113,
@@ -3549,18 +3677,28 @@
     ],
     "sourceAnswer": "1",
     "explanation": "S. 93 Das Umsatzergebnis berechnet sich aus der Differenz von Umsatzerlös und Umsatzkosten. Also muss sich der Umsatzerlös aus der Summe von Umsatzergebnis und Umsatzkosten berechnen.",
-    "flags": [],
-    "independentExplanation": "Absatzentscheidungen hängen von Kundenbedarf, Preis und Wettbewerb ab. Bei wenigen Anbietern beeinflussen sich Unternehmen gegenseitig stärker. Im Katalog wird hier besonders auf „... zum Umsatz die Umsatzkosten addiert werden“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Umsatz ist gewöhnlich Umsatzerlös. „zum Umsatz die Umsatzkosten addiert“ ist dann falsch. Die PDF-Erklärung meint offenbar Umsatzergebnis statt Umsatz. Das Wort darf ohne belegte Originalfassung nicht still ersetzt werden; Import wiederholt die Unschärfe.",
     "memoryExample": "Wenn zwei Cafés nebeneinander liegen, kann eine Preiserhöhung Kunden direkt zum anderen treiben.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Umsatz ist gewöhnlich Umsatzerlös. „zum Umsatz die Umsatzkosten addiert“ ist dann falsch. Die PDF-Erklärung meint offenbar Umsatzergebnis statt Umsatz. Das Wort darf ohne belegte Originalfassung nicht still ersetzt werden; Import wiederholt die Unschärfe.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Umsatz ist gewöhnlich Umsatzerlös. „zum Umsatz die Umsatzkosten addiert“ ist dann falsch. Die PDF-Erklärung meint offenbar Umsatzergebnis statt Umsatz. Das Wort darf ohne belegte Originalfassung nicht still ersetzt werden; Import wiederholt die Unschärfe.",
+    "auditSources": [
+      "pdf",
+      "cost"
+    ]
   },
   {
     "id": 114,
@@ -3580,18 +3718,28 @@
     ],
     "sourceAnswer": "2 & 4",
     "explanation": "S. 96 Zu den Fixkosten zählen die Abschreibungen, welche die nutzungsbedingten Wertminderungen der langfristigen Vermögenswerte (Technologie-Ressource) angeben. Die Abschreibungen werden bei jedem Unternehmen im Anlagespiegel angegeben. Im einfachsten Fall, welcher auch den nachfolgenden Ausführungen zugrunde gelegt wird, werden nur die Abschreibungen als Fixkosten angesetzt. Die variablen Umsatzkosten bilden sich sodann aus der Differenz zwischen den Umsatzkosten und der Abschreibung.",
-    "flags": [],
-    "independentExplanation": "Finanzentscheidungen verbinden Rendite, Liquidität und Risiko. Absicherungsinstrumente können Schwankungen begrenzen, kosten aber häufig Geld. Im Katalog wird hier besonders auf „erfordert eine Investition am Ende der Nutzungsdauer der Anlage; ist in der G&V über die Position „Abschreibung“ sichtbar“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Abschreibung bildet nutzungsbedingte Wertminderung ab, erzwingt aber keine Ersatzinvestition am Ende einer Nutzungsdauer. Weiterbenutzung oder Stilllegung sind möglich. Die verlangte Zweierlösung setzt einen nicht genannten Ersatzbedarf voraus.",
     "memoryExample": "Ein Exportbetrieb sichert einen Wechselkurs ab, damit eine spätere Zahlung kalkulierbar bleibt.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Abschreibung bildet nutzungsbedingte Wertminderung ab, erzwingt aber keine Ersatzinvestition am Ende einer Nutzungsdauer. Weiterbenutzung oder Stilllegung sind möglich. Die verlangte Zweierlösung setzt einen nicht genannten Ersatzbedarf voraus.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Abschreibung bildet nutzungsbedingte Wertminderung ab, erzwingt aber keine Ersatzinvestition am Ende einer Nutzungsdauer. Weiterbenutzung oder Stilllegung sind möglich. Die verlangte Zweierlösung setzt einen nicht genannten Ersatzbedarf voraus.",
+    "auditSources": [
+      "pdf",
+      "accounting"
+    ]
   },
   {
     "id": 115,
@@ -4199,18 +4347,27 @@
     ],
     "sourceAnswer": "4",
     "explanation": "Das Betriebsergebnis wird über ein 1-Faktormodell betrachtet, wobei die Absatzleistung als Erfolgstreiber und somit als Modellvariable fungiert. Der einheitsbezogene Deckungsbeitrag (Deckungsbeitrag je Outputeinheit)",
-    "flags": [],
-    "independentExplanation": "Absatzentscheidungen hängen von Kundenbedarf, Preis und Wettbewerb ab. Bei wenigen Anbietern beeinflussen sich Unternehmen gegenseitig stärker. Im Katalog wird hier besonders auf „fungiert die Absatzmenge als Erfolgstreiber“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Optionen 2 und 3 enthalten bereits im PDF [?]/[??]. Das 1-Faktormodell erklärt zwar die Absatzmenge, ersetzt aber die fehlenden Antworttexte nicht. Bis zur vollständigen Originalfassung nicht benoten.",
     "memoryExample": "Wenn zwei Cafés nebeneinander liegen, kann eine Preiserhöhung Kunden direkt zum anderen treiben.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Optionen 2 und 3 enthalten bereits im PDF [?]/[??]. Das 1-Faktormodell erklärt zwar die Absatzmenge, ersetzt aber die fehlenden Antworttexte nicht. Bis zur vollständigen Originalfassung nicht benoten.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Optionen 2 und 3 enthalten bereits im PDF [?]/[??]. Das 1-Faktormodell erklärt zwar die Absatzmenge, ersetzt aber die fehlenden Antworttexte nicht. Bis zur vollständigen Originalfassung nicht benoten.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 135,
@@ -5013,7 +5170,7 @@
     "id": 160,
     "chapter": "Finanzmanagement",
     "page": 49,
-    "text": "Liquiditätsmanagements fallen folgende Aufgaben an",
+    "text": "In der Kontrolle-Aktivität und der Lenkungsaktivität des Liquiditätsmanagements fallen folgende Aufgaben an",
     "correctCount": 3,
     "options": [
       "Messung des Soll-Betriebs-Cash Flows",
@@ -5028,21 +5185,25 @@
     ],
     "sourceAnswer": "2 & 3 & 4",
     "explanation": "S. 148 In der Kontrollaktivität (Check) und der Lenkungsaktivität (Act) des unternehmensweiten Liquiditätsmanagements fallen folgende Aufgaben an: 1. Messung der Ist-Liquidität 2. Vergleich von Plan- und Ist-Liquidität 3. Analyse der Liquiditätsabweichung 4. Selektion er Anpassungsmaßnahme Im Portfolio-Management geht es um die Planung, Kontrolle und Lenkung",
-    "flags": [
-      "Nicht isoliert beantwortbar – bis zur Originalprüfung aus Prüfung ausschließen"
-    ],
-    "independentExplanation": "Betriebswirtschaftliche Aussagen beschreiben meist einen Zielkonflikt: Eine Maßnahme verbessert einen Aspekt, kann aber einen anderen verschlechtern. Im Katalog wird hier besonders auf „Vergleich von Plan- und Ist-Betriebs-Cash Flow; Selektion der Anpassungsmaßnahme“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [],
+    "independentExplanation": "Der erste Teil des Fragestamms steht unmittelbar vor den Optionen auf PDF-Seite 49. Wiederhergestellt wird nur der verlorene Satzanfang; Optionen, Schlüssel und IDs bleiben gleich. Die dortigen Tätigkeiten Vergleich, Auswahl einer Anpassung und Abweichungsanalyse gehören zu Check/Act.",
     "memoryExample": "Ein Betrieb muss oft zwischen Kosten, Geschwindigkeit, Qualität und Sicherheit abwägen.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Einzeln geprüft im Audit 2026-11-10; Quellen und vollständige Änderungen im Auditbericht.",
     "contextAudit": {
       "status": "needs_context_review",
       "reason": "Formulierung ist kurz/elliptisch; mit den Antwortmöglichkeiten möglicherweise eigenständig lösbar"
     },
-    "contextWarning": "Der Fragestamm beginnt mitten im Satz und benötigt die Originalfrage."
+    "contextWarning": "",
+    "assessmentStatus": "verified",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Der erste Teil des Fragestamms steht unmittelbar vor den Optionen auf PDF-Seite 49. Wiederhergestellt wird nur der verlorene Satzanfang; Optionen, Schlüssel und IDs bleiben gleich. Die dortigen Tätigkeiten Vergleich, Auswahl einer Anpassung und Abweichungsanalyse gehören zu Check/Act.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 161,
@@ -5434,14 +5595,16 @@
     ],
     "sourceAnswer": "1 & 2",
     "explanation": "S. 158 Der positive Aspekt des Einsatzes von Stäben kann beeinträchtigt werden, wenn die Instanzen die von den Stabsstellen aufbereiteten Informationen und Entscheidungsgrundlagen nicht nutzen, was demotivierend wirken könnte. Weiters besteht die Gefahr der Verselbstständigung von Stäben, sodass diese anstelle der Instanz Entscheidungen treffen und Weisungen erteilen, ohne für die Konsequenzen verantwortlich zu sein.",
-    "flags": [],
-    "independentExplanation": "Betriebswirtschaftliche Aussagen beschreiben meist einen Zielkonflikt: Eine Maßnahme verbessert einen Aspekt, kann aber einen anderen verschlechtern. Im Katalog wird hier besonders auf „Die Einholung und Aufbereitung von Informationen für die Instanz durch die Stabsstelle entlastet die Instanz im Entscheidungsprozess; Probleme können entstehen, wenn Stäbe de facto Entscheidungen treffen, ohne formal dafür verantw“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Optionen 1 und 3 sind bis auf Interpunktion identisch, aber nur 1 wird als richtig gewertet. Der Fehler steht schon im PDF. Die andere Importoption ist keine belegte Wiederherstellung; Optionen bleiben aus Rücksicht auf historische Antwortindizes erhalten.",
     "memoryExample": "Ein Betrieb muss oft zwischen Kosten, Geschwindigkeit, Qualität und Sicherheit abwägen.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "repaired_from_pdf",
       "reason": "Fragetext anhand Original-PDF rekonstruiert; Antwortoptionen weiterhin separat auf Vollständigkeit prüfen",
@@ -5449,7 +5612,14 @@
     },
     "previousImportText": "korrekt:",
     "repairVersion": "0.7",
-    "repairSource": "betriebs-u-fragen.pdf"
+    "repairSource": "betriebs-u-fragen.pdf",
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Optionen 1 und 3 sind bis auf Interpunktion identisch, aber nur 1 wird als richtig gewertet. Der Fehler steht schon im PDF. Die andere Importoption ist keine belegte Wiederherstellung; Optionen bleiben aus Rücksicht auf historische Antwortindizes erhalten.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Optionen 1 und 3 sind bis auf Interpunktion identisch, aber nur 1 wird als richtig gewertet. Der Fehler steht schon im PDF. Die andere Importoption ist keine belegte Wiederherstellung; Optionen bleiben aus Rücksicht auf historische Antwortindizes erhalten.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 174,
@@ -5830,18 +6000,27 @@
     ],
     "sourceAnswer": "1 & 4",
     "explanation": "S. 170",
-    "flags": [],
-    "independentExplanation": "Absatzentscheidungen hängen von Kundenbedarf, Preis und Wettbewerb ab. Bei wenigen Anbietern beeinflussen sich Unternehmen gegenseitig stärker. Im Katalog wird hier besonders auf „vorhersehbare Pensionierungen; Die Organisationsstruktur des Unternehmens“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Pensionierungen verändern den Personalbestand/Ersatzbedarf, Effizienz und Organisationsstruktur den Einsatzbedarf. PDF nennt Pensionierungen und Struktur; Import hat dieselbe Auswahl, aber widersprüchlich drei richtige Antworten angekündigt. Ohne präzise LV-Begriffsdefinition kein gesicherter Schlüssel.",
     "memoryExample": "Wenn zwei Cafés nebeneinander liegen, kann eine Preiserhöhung Kunden direkt zum anderen treiben.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Pensionierungen verändern den Personalbestand/Ersatzbedarf, Effizienz und Organisationsstruktur den Einsatzbedarf. PDF nennt Pensionierungen und Struktur; Import hat dieselbe Auswahl, aber widersprüchlich drei richtige Antworten angekündigt. Ohne präzise LV-Begriffsdefinition kein gesicherter Schlüssel.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Pensionierungen verändern den Personalbestand/Ersatzbedarf, Effizienz und Organisationsstruktur den Einsatzbedarf. PDF nennt Pensionierungen und Struktur; Import hat dieselbe Auswahl, aber widersprüchlich drei richtige Antworten angekündigt. Ohne präzise LV-Begriffsdefinition kein gesicherter Schlüssel.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 186,
@@ -6369,18 +6548,27 @@
     ],
     "sourceAnswer": "2 & 3",
     "explanation": "S. 181 Ein U nternehmensnetzwerk stel l t ei ne auf d i e R ea li s i e run g v o n W ettbewerbs v orte il en z i e l e n de Organisationsform öko no m i sc h er A ktivitäte n d ar, d i e s i c h du rc h ko m p l ex r ez ip roke, eher kooperat i ve denn ko mp etiti v e un d re l at iv s tab il e Bez i e hun ge n z wi sc h en r ec htl ic h se l bstständigen w i rtschaft l ic h j edoc h zumeist ab h ä n g i ge n Un te rn e h men ausze i c hn et .",
-    "flags": [],
-    "independentExplanation": "Strategie legt fest, wo ein Unternehmen konkurriert und wie es einen Vorteil erreicht. Wachstum kann über bestehende oder neue Produkte und Märkte erfolgen. Im Katalog wird hier besonders auf „zielen Netzwerke auf die Realisierung Wettbewerbsvorteilen ab; sind Netzwerkbeziehungen eher auf Kooperation als auf Wettbewerb zwischen den Partnern ausgerichtet“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Option 4 enthält bereits im PDF einen [?]-Platzhalter. Der genaue Vergleich der Koordinationsformen ist damit nicht vollständig überliefert. Ohne vollständige Antwortoption nicht benoten.",
     "memoryExample": "Eine Bäckerei kann mehr Brot im bisherigen Viertel verkaufen oder mit einem neuen Angebot neue Kunden gewinnen.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Option 4 enthält bereits im PDF einen [?]-Platzhalter. Der genaue Vergleich der Koordinationsformen ist damit nicht vollständig überliefert. Ohne vollständige Antwortoption nicht benoten.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Option 4 enthält bereits im PDF einen [?]-Platzhalter. Der genaue Vergleich der Koordinationsformen ist damit nicht vollständig überliefert. Ohne vollständige Antwortoption nicht benoten.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 203,
@@ -6466,18 +6654,27 @@
     ],
     "sourceAnswer": "2 & 4",
     "explanation": "S. 183/184",
-    "flags": [],
-    "independentExplanation": "Absatzentscheidungen hängen von Kundenbedarf, Preis und Wettbewerb ab. Bei wenigen Anbietern beeinflussen sich Unternehmen gegenseitig stärker. Im Katalog wird hier besonders auf „durch das dezentrale Gesamtsystem eine höhere Umweltsensibilität auf; eine höhere Reversibilität der Kooperationsentscheidung auf“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Die gewählten Merkmale Dezentralität und Reversibilität passen eher zu Netzwerken als zu Hierarchien. PDF und Import scheinen die Vergleichsrichtung zu vertauschen. Der Wortlaut wird nicht spekulativ umgekehrt; genaue Zweierlösung ungeklärt.",
     "memoryExample": "Wenn zwei Cafés nebeneinander liegen, kann eine Preiserhöhung Kunden direkt zum anderen treiben.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Die gewählten Merkmale Dezentralität und Reversibilität passen eher zu Netzwerken als zu Hierarchien. PDF und Import scheinen die Vergleichsrichtung zu vertauschen. Der Wortlaut wird nicht spekulativ umgekehrt; genaue Zweierlösung ungeklärt.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Die gewählten Merkmale Dezentralität und Reversibilität passen eher zu Netzwerken als zu Hierarchien. PDF und Import scheinen die Vergleichsrichtung zu vertauschen. Der Wortlaut wird nicht spekulativ umgekehrt; genaue Zweierlösung ungeklärt.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 206,
@@ -6528,14 +6725,16 @@
     ],
     "sourceAnswer": "2 & 4",
     "explanation": "Komplementäre Erklärungsansätze, die die Existenz von Unternehmensnetzwerken begründen und damit Aufschluss geben unter welchen Bedingungen diese sinnvoll eingesetzt werden können. Als bedeutendste sind der Kernkompetenzansatz und die Transaktionskostentheorie zu erwähnen.",
-    "flags": [],
-    "independentExplanation": "Fixkosten fallen unabhängig von der Stückzahl an, variable Kosten ändern sich mit der Leistung. Der Deckungsbeitrag hilft zu verstehen, wann die Fixkosten gedeckt sind. Im Katalog wird hier besonders auf „Neoklassische ökonomische Theorie; Neue Institutionenökonomie“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Neue Institutionenökonomie umfasst auch den Transaktionskostenansatz. Sie pauschal als keinen Erklärungsansatz zu markieren ist ohne enge LV-Taxonomie problematisch. PDF und Import stimmen überein, eine offizielle Definition fehlt.",
     "memoryExample": "Ein Konzert muss zuerst Saalmiete und Technik finanzieren; erst danach bringt jedes zusätzliche Ticket Gewinn.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "repaired_from_pdf",
       "reason": "Fragetext anhand Original-PDF rekonstruiert; Antwortoptionen weiterhin separat auf Vollständigkeit prüfen",
@@ -6543,7 +6742,14 @@
     },
     "previousImportText": "",
     "repairVersion": "0.7",
-    "repairSource": "betriebs-u-fragen.pdf"
+    "repairSource": "betriebs-u-fragen.pdf",
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Neue Institutionenökonomie umfasst auch den Transaktionskostenansatz. Sie pauschal als keinen Erklärungsansatz zu markieren ist ohne enge LV-Taxonomie problematisch. PDF und Import stimmen überein, eine offizielle Definition fehlt.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Neue Institutionenökonomie umfasst auch den Transaktionskostenansatz. Sie pauschal als keinen Erklärungsansatz zu markieren ist ohne enge LV-Taxonomie problematisch. PDF und Import stimmen überein, eine offizielle Definition fehlt.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 208,
@@ -6563,18 +6769,27 @@
     ],
     "sourceAnswer": "2 & 4",
     "explanation": "S. 183 Eine Leistung (oder Ressource die zur Leistungserstellung eingesetzt wird) ist dann spezifisch, wenn es wenige Alternativen zum vorgesehenen Verwendungszweck gibt bzw. der Gewinn aus diesen Alternativen erheblich geringer ist.Das Ausmaß des Anstiegs der Transaktionskosten mit höherer Spezifität variiert je nach Koordinationsform, sodass für unterschiedlich spezifische Leistungen jeweils andere Koordinationsformen optimal sein können weil sie die niedrigsten Transaktionskosten verursachen",
-    "flags": [],
-    "independentExplanation": "Organisation verteilt Aufgaben und Entscheidungen. Gute Führung berücksichtigt Kompetenz, Verantwortung und den nötigen Abstimmungsaufwand. Im Katalog wird hier besonders auf „nur an bestimmten Orten erzeugt werden kann; Ressourcen erfordert, die nicht für andere Zwecke benutzt werden können“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Option 1 enthält bereits im PDF „echten[?]“. Auch ein ungewählter beschädigter Ablenker muss vor automatischer Bewertung vollständig geprüft sein.",
     "memoryExample": "In einem Softwareteam entscheidet die Entwicklerin technische Details, während die Projektleitung Prioritäten koordiniert.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Option 1 enthält bereits im PDF „echten[?]“. Auch ein ungewählter beschädigter Ablenker muss vor automatischer Bewertung vollständig geprüft sein.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Option 1 enthält bereits im PDF „echten[?]“. Auch ein ungewählter beschädigter Ablenker muss vor automatischer Bewertung vollständig geprüft sein.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 209,
@@ -6881,14 +7096,16 @@
     ],
     "sourceAnswer": "1 & 4 (bestätigt)",
     "explanation": "",
-    "flags": [],
-    "independentExplanation": "Qualitätsmanagement verhindert Fehler systematisch, statt nur fertige Produkte zu kontrollieren. Verschiedene Werkzeuge helfen bei Ursachenanalyse, Messung und Verbesserung. Im Katalog wird hier besonders auf „Die Zusammenarbeit ist in der Regel zeitlich unbegrenzt; Die komplexe Form der Zusammenarbeit kann zu Terminverlusten und Qualitätseinbußen führen“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Die Aussage „kann zu Terminverlusten und Qualitätseinbußen führen“ beschreibt ein mögliches Kooperationsrisiko und kann nicht generell als unzutreffend gelten. Der Zweierschlüssel markiert sie dennoch als falsch. Keine belegte eindeutige Fassung; Optionen bleiben unverändert.",
     "memoryExample": "Wenn ein Paketdienst oft zu spät liefert, untersucht man die Ursachen im Ablauf statt nur verspätete Pakete zu zählen.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "repaired_from_pdf",
       "reason": "Fragetext anhand Original-PDF rekonstruiert; Antwortoptionen weiterhin separat auf Vollständigkeit prüfen",
@@ -6896,7 +7113,14 @@
     },
     "previousImportText": "",
     "repairVersion": "0.7",
-    "repairSource": "betriebs-u-fragen.pdf"
+    "repairSource": "betriebs-u-fragen.pdf",
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Die Aussage „kann zu Terminverlusten und Qualitätseinbußen führen“ beschreibt ein mögliches Kooperationsrisiko und kann nicht generell als unzutreffend gelten. Der Zweierschlüssel markiert sie dennoch als falsch. Keine belegte eindeutige Fassung; Optionen bleiben unverändert.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Die Aussage „kann zu Terminverlusten und Qualitätseinbußen führen“ beschreibt ein mögliches Kooperationsrisiko und kann nicht generell als unzutreffend gelten. Der Zweierschlüssel markiert sie dennoch als falsch. Keine belegte eindeutige Fassung; Optionen bleiben unverändert.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 219,
@@ -7047,7 +7271,7 @@
     "id": 223,
     "chapter": "Unternehmenskooperation",
     "page": 67,
-    "text": "Entscheidungsfindung angebracht ist. Welche Kritierien schlagen Sie vor:",
+    "text": "Situationsgerechtes Führen: vor allem Fachexperten in Führungsrollen sind meistens überzeugt, dass ihre herausragende Expertise die Grundlage für alle Entscheidungen sein sollte und fürchten, dass zu viel Delegation die Arbeitsqualität gefährden könnte. Erklären Sie dieser Zielgruppe die Kriterien auf die Sie achten sollen, um zu entscheiden ob eine autoritäre Alleinentscheidung oder eine Partizpativ-delegative Form der Entscheidungsfindung angebracht ist. Welche Kritierien schlagen Sie vor:",
     "correctCount": 3,
     "options": [
       "Erwartung der Personalabteilung",
@@ -7066,17 +7290,23 @@
     "flags": [
       "Originalfrage mit 5 Optionen: nur im Lesebuch, nicht in 4-Optionen-Prüfung"
     ],
-    "independentExplanation": "Absatzentscheidungen hängen von Kundenbedarf, Preis und Wettbewerb ab. Bei wenigen Anbietern beeinflussen sich Unternehmen gegenseitig stärker. Im Katalog wird hier besonders auf „Absatz Akzeptanz durch die Mitarbeiter_innen; Zeit“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "independentExplanation": "Vollständiger Fragestamm von PDF-Seite 67 wiederhergestellt. Keine Veränderung der Optionen oder des studentischen Lösungsschlüssels; wegen fünf Optionen weiterhin nur Lesebuch. Diese Textreparatur ist keine unabhängige Bestätigung der fachlichen Lösung.",
     "memoryExample": "Wenn zwei Cafés nebeneinander liegen, kann eine Preiserhöhung Kunden direkt zum anderen treiben.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Einzeln geprüft im Audit 2026-11-10; Quellen und vollständige Änderungen im Auditbericht.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "source-only",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Vollständiger Fragestamm von PDF-Seite 67 wiederhergestellt. Keine Veränderung der Optionen oder des studentischen Lösungsschlüssels; wegen fünf Optionen weiterhin nur Lesebuch. Diese Textreparatur ist keine unabhängige Bestätigung der fachlichen Lösung.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 224,
@@ -7120,7 +7350,7 @@
     "id": 225,
     "chapter": "Unternehmenskooperation",
     "page": 68,
-    "text": "werden. Welche Rollenbündel wird sie dabei mit ihrem Coach besprechen?",
+    "text": "Melanie Müller ist eine sehr engagierte Führungskraft bei Rosenbauer Marketing. Sie hat das Ziel als Führungskraft noch wirksamer in ihrer Rolle zu werden. Welche Rollenbündel wird sie dabei mit ihrem Coach besprechen?",
     "correctCount": 3,
     "options": [
       "Informationsrollen: Sie wird sich damit auseinandersetzen, welche Informationen sie aus welcher Quelle gewinnt, wie sie diese verarbeitet und primär in Richtung Teammitglieder sendet (z.B. als Sender Radarschirm oder als Sprecherin)",
@@ -7139,17 +7369,23 @@
     "flags": [
       "Originalfrage mit 5 Optionen: nur im Lesebuch, nicht in 4-Optionen-Prüfung"
     ],
-    "independentExplanation": "Innovation bedeutet nicht nur eine Idee, sondern ihre erfolgreiche Umsetzung. Frühe Nutzer liefern oft Hinweise auf spätere Marktbedürfnisse. Im Katalog wird hier besonders auf „Informationsrollen: Sie wird sich damit auseinandersetzen, welche Informationen sie aus welcher Quelle gewinnt, wie sie diese verarbeitet und primär in Richtung Teammitglieder sendet (z.B. als Sender Radarschirm oder als Sprecheri“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "independentExplanation": "Vollständiger Fragestamm von PDF-Seite 68 wiederhergestellt. Antwortpositionen und bisheriger Schlüssel bleiben erhalten; fünf Optionen bleiben außerhalb bewerteter Modi. Die Textwiederherstellung bestätigt nicht unabhängig den Schlüssel.",
     "memoryExample": "Ein begeisterter Radfahrer testet eine neue Navigationsfunktion, lange bevor sie im Massenmarkt ankommt.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Einzeln geprüft im Audit 2026-11-10; Quellen und vollständige Änderungen im Auditbericht.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "source-only",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Vollständiger Fragestamm von PDF-Seite 68 wiederhergestellt. Antwortpositionen und bisheriger Schlüssel bleiben erhalten; fünf Optionen bleiben außerhalb bewerteter Modi. Die Textwiederherstellung bestätigt nicht unabhängig den Schlüssel.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 226,
@@ -7741,7 +7977,7 @@
     "id": 242,
     "chapter": "Weitere Themen / Nachhaltigkeit",
     "page": 73,
-    "text": "strategische Perspektive nutzt dann spricht er wovon?",
+    "text": "Die Strategie von Rosenbauer verfolgt das Wechselspiel aus Effizienzorientierung auf Basis bestehender Kompetenzen (u.a. Kernkompetenzen) und die Innovationsorientierung zur Kreation völlig neuer Kompetenzen. In Zeiten großer Dynamik und hoher Wettbewerbsintensität ist es notwendig, dass ständig an inkrementeller Verbesserungen gearbeitet wird und dennoch auch der Blick für die Entwicklung völlig neuer Kompetenzen für die langfristige Zukunft nicht aus den Augen gerät. Wenn der CEO diese strategische Perspektive nutzt dann spricht er wovon?",
     "correctCount": 2,
     "options": [
       "Ambidexterity: Exploitation im Kerngeschäft (u.a. Effizienz, Replikation) wird ergänzt durch Exploration und völlig neue Kompetenzen aufzubauen, große Flexibilität zu erzeugen und radikale Innovationen voranzutreiben.",
@@ -7759,17 +7995,23 @@
     "flags": [
       "Originalfrage mit 5 Optionen: nur im Lesebuch, nicht in 4-Optionen-Prüfung"
     ],
-    "independentExplanation": "Qualitätsmanagement verhindert Fehler systematisch, statt nur fertige Produkte zu kontrollieren. Verschiedene Werkzeuge helfen bei Ursachenanalyse, Messung und Verbesserung. Im Katalog wird hier besonders auf „Ambidexterity: Exploitation im Kerngeschäft (u.a. Effizienz, Replikation) wird ergänzt durch Exploration und völlig neue Kompetenzen aufzubauen, große Flexibilität zu erzeugen und radikale Innovationen voranzutreiben; Strategic Ch“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "independentExplanation": "Verlorenen Beginn des Fragestamms wortgetreu aus PDF-Seite 73 ergänzt. Keine fachliche Neubewertung des studentischen Schlüssels; fünf Optionen bleiben nur im Lesebuch.",
     "memoryExample": "Wenn ein Paketdienst oft zu spät liefert, untersucht man die Ursachen im Ablauf statt nur verspätete Pakete zu zählen.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Einzeln geprüft im Audit 2026-11-10; Quellen und vollständige Änderungen im Auditbericht.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "source-only",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Verlorenen Beginn des Fragestamms wortgetreu aus PDF-Seite 73 ergänzt. Keine fachliche Neubewertung des studentischen Schlüssels; fünf Optionen bleiben nur im Lesebuch.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 243,
@@ -7992,7 +8234,7 @@
     "id": 249,
     "chapter": "Weitere Themen / Nachhaltigkeit",
     "page": 75,
-    "text": "Besonderheiten zu beachten",
+    "text": "Das EBIT– Performance Management umfasst die Budgetierung und Steuerung der EBIT-Erfolgsgrößen. Bei der EBIT–Budgetierung (Planung) gibt es folgende Besonderheiten zu beachten",
     "correctCount": 2,
     "options": [
       "Die Sub-Periodisierung (z.B. 4 Quartale für das Budgetjahr) ermöglicht zwar eine proaktive Lenkung aber, Saisonalitäten lassen sich damit nicht (erklären?)",
@@ -8011,18 +8253,24 @@
       "Originalfrage mit 5 Optionen: nur im Lesebuch, nicht in 4-Optionen-Prüfung",
       "Nicht isoliert beantwortbar – bis zur Originalprüfung aus Prüfung ausschließen"
     ],
-    "independentExplanation": "Absatzentscheidungen hängen von Kundenbedarf, Preis und Wettbewerb ab. Bei wenigen Anbietern beeinflussen sich Unternehmen gegenseitig stärker. Im Katalog wird hier besonders auf „Im einfachsten Fall wird das operative Ergebnis (EBIT) nur in Abhängigkeit von der Absatzmenge definiert; Die EBIT–Budgetierung basiert auf dem aus der Umsatz- und der Kostenfunktion gebildetem EBIT–Modell“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "independentExplanation": "Satzanfang aus PDF-Seite 75 wiederhergestellt. Die erkennbare Unsicherheit in Option 1 bleibt sichtbar; fünf Optionen werden weiterhin nicht benotet. Keine unabhängige fachliche Freigabe des gesamten Schlüssels.",
     "memoryExample": "Wenn zwei Cafés nebeneinander liegen, kann eine Preiserhöhung Kunden direkt zum anderen treiben.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Einzeln geprüft im Audit 2026-11-10; Quellen und vollständige Änderungen im Auditbericht.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
     },
-    "contextWarning": "Der vollständige Fragestamm ist im Import nicht erhalten. Bis zum 1:1-Abgleich mit der PDF-Seite nicht prüfbar."
+    "contextWarning": "Option 1 ist bereits im PDF mit „(erklären?)“ unsicher überliefert; nur Lesebuch.",
+    "assessmentStatus": "source-only",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Satzanfang aus PDF-Seite 75 wiederhergestellt. Die erkennbare Unsicherheit in Option 1 bleibt sichtbar; fünf Optionen werden weiterhin nicht benotet. Keine unabhängige fachliche Freigabe des gesamten Schlüssels.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 250,
@@ -8222,15 +8470,16 @@
     "explanation": "",
     "flags": [
       "Originalfrage mit 5 Optionen: nur im Lesebuch, nicht in 4-Optionen-Prüfung",
-      "Nicht isoliert beantwortbar – bis zur Originalprüfung aus Prüfung ausschließen"
+      "Nicht isoliert beantwortbar – bis zur Originalprüfung aus Prüfung ausschließen",
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
     ],
-    "independentExplanation": "Fixkosten fallen unabhängig von der Stückzahl an, variable Kosten ändern sich mit der Leistung. Der Deckungsbeitrag hilft zu verstehen, wann die Fixkosten gedeckt sind. Im Katalog wird hier besonders auf „Standard-Treibhausgas (THG)-Rechnung u.a. zur Berechnung der Emissionen alles 5 Kompomenten des 5-Hebel-THG-Managementmodells; Standard-Kosten-Rechnung u.a. zur Berechnung aktivitätsbezogener Maschinenkosten (Ausrüstung)“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "independentExplanation": "Ungeklärte Frage: Das PDF beginnt ebenfalls nur mit „Produktionskoeffizient dient in der“. Es gibt keinen verlorenen Satzanfang, der aus diesem Material belegbar ergänzt werden könnte. Spezialmodell und Lösung sind ohne Folien nicht ausreichend prüfbar.",
     "memoryExample": "Ein Konzert muss zuerst Saalmiete und Technik finanzieren; erst danach bringt jedes zusätzliche Ticket Gewinn.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "repaired_from_pdf",
       "reason": "Fragetext anhand Original-PDF rekonstruiert; Antwortoptionen weiterhin separat auf Vollständigkeit prüfen",
@@ -8239,7 +8488,13 @@
     "previousImportText": "Produktionskoeffizient dient in der",
     "repairVersion": "0.7",
     "repairSource": "betriebs-u-fragen.pdf",
-    "contextWarning": "Der Fragestamm endet mitten im Satz und ist ohne den restlichen Originaltext nicht eindeutig."
+    "contextWarning": "Das PDF beginnt ebenfalls nur mit „Produktionskoeffizient dient in der“. Es gibt keinen verlorenen Satzanfang, der aus diesem Material belegbar ergänzt werden könnte. Spezialmodell und Lösung sind ohne Folien nicht ausreichend prüfbar.",
+    "assessmentStatus": "unresolved",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Das PDF beginnt ebenfalls nur mit „Produktionskoeffizient dient in der“. Es gibt keinen verlorenen Satzanfang, der aus diesem Material belegbar ergänzt werden könnte. Spezialmodell und Lösung sind ohne Folien nicht ausreichend prüfbar.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 256,
@@ -8261,19 +8516,28 @@
     "sourceAnswer": "3 & 4",
     "explanation": "",
     "flags": [
-      "Originalfrage mit 5 Optionen: nur im Lesebuch, nicht in 4-Optionen-Prüfung"
+      "Originalfrage mit 5 Optionen: nur im Lesebuch, nicht in 4-Optionen-Prüfung",
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
     ],
-    "independentExplanation": "Die Bilanz zeigt Vermögen und Finanzierung zu einem Stichtag; die Gewinn- und Verlustrechnung betrachtet Erträge und Aufwendungen über einen Zeitraum. Im Katalog wird hier besonders auf „Die Gleichheit des Vermögens und des Eigenkapitals weniger den Schulden; Die Gleichheit der Aktiva und Passiva“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "independentExplanation": "Ungeklärte Frage: Option 3 nennt Vermögen = Eigenkapital weniger Schulden. Richtig wäre Vermögen = Eigenkapital plus Schulden. PDF-Schlüssel 3 & 4 ist daher offensichtlich widersprüchlich. Originaloption bleibt unverändert; eine eindeutige Zweierlösung ist nicht vorhanden.",
     "memoryExample": "Ein Kontostand ist eine Momentaufnahme, dein Monatsbudget dagegen eine Entwicklung über Wochen.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Option 3 nennt Vermögen = Eigenkapital weniger Schulden. Richtig wäre Vermögen = Eigenkapital plus Schulden. PDF-Schlüssel 3 & 4 ist daher offensichtlich widersprüchlich. Originaloption bleibt unverändert; eine eindeutige Zweierlösung ist nicht vorhanden.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Option 3 nennt Vermögen = Eigenkapital weniger Schulden. Richtig wäre Vermögen = Eigenkapital plus Schulden. PDF-Schlüssel 3 & 4 ist daher offensichtlich widersprüchlich. Originaloption bleibt unverändert; eine eindeutige Zweierlösung ist nicht vorhanden.",
+    "auditSources": [
+      "pdf",
+      "accounting"
+    ]
   },
   {
     "id": 257,
@@ -8659,18 +8923,27 @@
     ],
     "sourceAnswer": "4",
     "explanation": "",
-    "flags": [],
-    "independentExplanation": "Innovation bedeutet nicht nur eine Idee, sondern ihre erfolgreiche Umsetzung. Frühe Nutzer liefern oft Hinweise auf spätere Marktbedürfnisse. Im Katalog wird hier besonders auf „Sie legen den Fokus auf die Entwicklung radikaler Innovationen und die Erforschung neuer Geschäftsmöglichkeiten“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Drei Antwortoptionen brechen mit Auslassungspunkten ab; aus den vorhandenen Angaben lässt sich ihr vollständiger Wahrheitsgehalt nicht sicher beurteilen. Keine bewertete Nutzung.",
     "memoryExample": "Ein begeisterter Radfahrer testet eine neue Navigationsfunktion, lange bevor sie im Massenmarkt ankommt.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Drei Antwortoptionen brechen mit Auslassungspunkten ab; aus den vorhandenen Angaben lässt sich ihr vollständiger Wahrheitsgehalt nicht sicher beurteilen. Keine bewertete Nutzung.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Drei Antwortoptionen brechen mit Auslassungspunkten ab; aus den vorhandenen Angaben lässt sich ihr vollständiger Wahrheitsgehalt nicht sicher beurteilen. Keine bewertete Nutzung.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 269,
@@ -8790,18 +9063,27 @@
     ],
     "sourceAnswer": "1 & 2 & 3",
     "explanation": "",
-    "flags": [],
-    "independentExplanation": "Betriebswirtschaftliche Aussagen beschreiben meist einen Zielkonflikt: Eine Maßnahme verbessert einen Aspekt, kann aber einen anderen verschlechtern. Im Katalog wird hier besonders auf „Vertrauen zwischen den Teammitgliedern, das Konflikte minimiert und Zusammenarbeit erleichtert; Partizipation, die alle Mitglieder aktiv in Entscheidungsprozesse einbindet“ abgestellt. Prüfe bei ähnlichen Antworten, ob sie tatsächlich dieselbe Aussage treffen oder eine wichtige Einschränkung verändern.",
+    "flags": [
+      "Audit 2026-11-10: keine eindeutige Bewertung; nicht automatisch benoten"
+    ],
+    "independentExplanation": "Ungeklärte Frage: Die vierte Antwortoption ist auf „Klare Rollendefinitionen ...“ verkürzt. Ohne Volltext ist nicht sicher, warum sie gegenüber Vertrauen, Partizipation und gemeinsamen Werten ausgeschlossen wird.",
     "memoryExample": "Ein Betrieb muss oft zwischen Kosten, Geschwindigkeit, Qualität und Sicherheit abwägen.",
     "explanationSources": [
       "https://openstax.org/new-subjects/business-books",
       "https://openstax.org/books/introduction-business-2e/pages/10-6-looking-for-a-better-way-improving-production-and-operations"
     ],
-    "explanationStatus": "Eigenständig formulierte Lernhilfe, thematisch mit OpenStax abgeglichen; keine individuelle Quellenprüfung je Aussage",
+    "explanationStatus": "Audit: keine verifizierte Lösung; bisheriger Schlüssel nur als historische Quellenangabe erhalten.",
     "contextAudit": {
       "status": "plausible",
       "reason": "Keine auffällige Kontextlücke bei der automatischen Textprüfung"
-    }
+    },
+    "assessmentStatus": "unresolved",
+    "contextWarning": "Die vierte Antwortoption ist auf „Klare Rollendefinitionen ...“ verkürzt. Ohne Volltext ist nicht sicher, warum sie gegenüber Vertrauen, Partizipation und gemeinsamen Werten ausgeschlossen wird.",
+    "catalogRevision": "audit-2026-11-10",
+    "editorialDecision": "Die vierte Antwortoption ist auf „Klare Rollendefinitionen ...“ verkürzt. Ohne Volltext ist nicht sicher, warum sie gegenüber Vertrauen, Partizipation und gemeinsamen Werten ausgeschlossen wird.",
+    "auditSources": [
+      "pdf"
+    ]
   },
   {
     "id": 273,
@@ -8833,5 +9115,199 @@
       "status": "needs_context_review",
       "reason": "Formulierung ist kurz/elliptisch; mit den Antwortmöglichkeiten möglicherweise eigenständig lösbar"
     }
+  },
+  {
+    "id": 274,
+    "chapter": "Kosten- und Erfolgsrechnung",
+    "page": 35,
+    "text": "Die G&V ...",
+    "correctCount": 1,
+    "options": [
+      "kann nur nach dem Gesamtkostenverfahren gegliedert werden.",
+      "kann nur nach dem Umsatzkostenverfahren gegliedert werden",
+      "zeigt die im Zuge der Leistungserstellung angefallenen Kosten"
+    ],
+    "answers": [
+      2
+    ],
+    "sourceAnswer": "Studentischer Import: 3; einzeln geprüft 2026-11-10",
+    "explanation": "",
+    "flags": [
+      "Originalfrage mit 3 Optionen: nur im Lesebuch, nicht in 4-Optionen-Prüfung"
+    ],
+    "independentExplanation": "Die GuV erfasst periodische Erträge und Aufwendungen. Antwort 3 trifft den im lokalen Katalog verwendeten Kostenbegriff; 1 und 2 behaupten jeweils unzutreffend nur ein Gliederungsverfahren. Fachlich ist Aufwand von kalkulatorischen Kosten zu unterscheiden.",
+    "explanationStatus": "Einzeln im Audit geprüft; keine offizielle Musterlösung.",
+    "assessmentStatus": "verified",
+    "catalogRevision": "audit-2026-11-10",
+    "source": {
+      "kind": "student-import",
+      "path": "imported-questions/grundlagen_der_betriebs_und_unternehmensfuerung_fragenkatalog.json",
+      "index": 15,
+      "answerIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    "auditSources": [
+      "pdf",
+      "accounting"
+    ],
+    "editorialDecision": "Die GuV erfasst periodische Erträge und Aufwendungen. Antwort 3 trifft den im lokalen Katalog verwendeten Kostenbegriff; 1 und 2 behaupten jeweils unzutreffend nur ein Gliederungsverfahren. Fachlich ist Aufwand von kalkulatorischen Kosten zu unterscheiden."
+  },
+  {
+    "id": 275,
+    "chapter": "Kosten- und Erfolgsrechnung",
+    "page": 36,
+    "text": "Potenzialfaktoren werden im Zuge der Leisungserstellung",
+    "correctCount": 1,
+    "options": [
+      "gebraucht",
+      "verkauft",
+      "verbraucht"
+    ],
+    "answers": [
+      0
+    ],
+    "sourceAnswer": "Studentischer Import: 1; einzeln geprüft 2026-11-10",
+    "explanation": "",
+    "flags": [
+      "Originalfrage mit 3 Optionen: nur im Lesebuch, nicht in 4-Optionen-Prüfung"
+    ],
+    "independentExplanation": "Potenzialfaktoren werden zur Leistungserstellung gebraucht. Verkaufen oder einmaliges Verbrauchen beschreibt ihre Funktion nicht. Personal und Betriebsmittel sind Beispiele; Verschleiß steht dem wiederholten Gebrauch nicht entgegen.",
+    "explanationStatus": "Einzeln im Audit geprüft; keine offizielle Musterlösung.",
+    "assessmentStatus": "verified",
+    "catalogRevision": "audit-2026-11-10",
+    "source": {
+      "kind": "student-import",
+      "path": "imported-questions/grundlagen_der_betriebs_und_unternehmensfuerung_fragenkatalog.json",
+      "index": 59,
+      "answerIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    "auditSources": [
+      "pdf"
+    ],
+    "editorialDecision": "Potenzialfaktoren werden zur Leistungserstellung gebraucht. Verkaufen oder einmaliges Verbrauchen beschreibt ihre Funktion nicht. Personal und Betriebsmittel sind Beispiele; Verschleiß steht dem wiederholten Gebrauch nicht entgegen."
+  },
+  {
+    "id": 276,
+    "chapter": "Kosten- und Erfolgsrechnung",
+    "page": 39,
+    "text": "Die Differenz zwischen EBIT und dem Jahresüberschuss/-fehlbetrag ...",
+    "correctCount": 1,
+    "options": [
+      "wird durch das Finanzergebnis und Ertragssteuern begründet",
+      "wird nur durch Ertragssteern begründet",
+      "wird nur durch das Finanzergebnis begründet"
+    ],
+    "answers": [
+      0
+    ],
+    "sourceAnswer": "Studentischer Import: 1; einzeln geprüft 2026-11-10",
+    "explanation": "",
+    "flags": [
+      "Originalfrage mit 3 Optionen: nur im Lesebuch, nicht in 4-Optionen-Prüfung"
+    ],
+    "independentExplanation": "Im hier verwendeten GuV-Schema folgt auf EBIT das Finanzergebnis und anschließend die Ertragsteuer. Beide erklären die Differenz zum Jahresüberschuss/-fehlbetrag. Die Antworten 2 und 3 lassen jeweils einen Bestandteil aus; Sondereffekte anderer Rechnungslegungsschemata sind nicht Gegenstand dieses Schemas.",
+    "explanationStatus": "Einzeln im Audit geprüft; keine offizielle Musterlösung.",
+    "assessmentStatus": "verified",
+    "catalogRevision": "audit-2026-11-10",
+    "source": {
+      "kind": "student-import",
+      "path": "imported-questions/grundlagen_der_betriebs_und_unternehmensfuerung_fragenkatalog.json",
+      "index": 75,
+      "answerIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    "auditSources": [
+      "pdf",
+      "income"
+    ],
+    "editorialDecision": "Im hier verwendeten GuV-Schema folgt auf EBIT das Finanzergebnis und anschließend die Ertragsteuer. Beide erklären die Differenz zum Jahresüberschuss/-fehlbetrag. Die Antworten 2 und 3 lassen jeweils einen Bestandteil aus; Sondereffekte anderer Rechnungslegungsschemata sind nicht Gegenstand dieses Schemas."
+  },
+  {
+    "id": 277,
+    "chapter": "Kosten- und Erfolgsrechnung",
+    "page": 36,
+    "text": "Der Verkaufspreis Einheit rechnet sich indem...",
+    "correctCount": 1,
+    "options": [
+      "Variable Umsatzkosten durch Absatzmenge",
+      "der Umsatz durch die Absatzmenge dividiert wird.",
+      "fixe Einheitskosten plus variable Einheitskosten",
+      "Umsatzkosten plus Selbstkosten"
+    ],
+    "answers": [
+      1
+    ],
+    "sourceAnswer": "Studentischer Import: 2; einzeln geprüft 2026-11-10",
+    "explanation": "",
+    "flags": [],
+    "independentExplanation": "Bei einer einheitlichen Produktart und positiver Absatzmenge gilt Umsatz = Preis × Absatzmenge, also Preis = Umsatz / Absatzmenge. Variable Kosten pro Menge sind variable Stückkosten; fixe plus variable Stückkosten ergeben volle Stückkosten; das Addieren von Kosten liefert keinen Verkaufspreis.",
+    "explanationStatus": "Einzeln im Audit geprüft; keine offizielle Musterlösung.",
+    "assessmentStatus": "verified",
+    "catalogRevision": "audit-2026-11-10",
+    "source": {
+      "kind": "student-import",
+      "path": "imported-questions/grundlagen_der_betriebs_und_unternehmensfuerung_fragenkatalog.json",
+      "index": 168,
+      "answerIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "auditSources": [
+      "pdf",
+      "cost"
+    ],
+    "editorialDecision": "Bei einer einheitlichen Produktart und positiver Absatzmenge gilt Umsatz = Preis × Absatzmenge, also Preis = Umsatz / Absatzmenge. Variable Kosten pro Menge sind variable Stückkosten; fixe plus variable Stückkosten ergeben volle Stückkosten; das Addieren von Kosten liefert keinen Verkaufspreis."
+  },
+  {
+    "id": 278,
+    "chapter": "Qualitätsmanagement",
+    "page": 0,
+    "text": "Welches der folgenden Tools zählt nicht zu den sieben Qualitätswerkzeugen (Q7)?",
+    "correctCount": 1,
+    "options": [
+      "Qualitätsregelkarte",
+      "Fehlersammelliste oder Aufnahmebogen",
+      "PDCA-Zyklus",
+      "Grafische Darstellung/Stratifikation"
+    ],
+    "answers": [
+      2
+    ],
+    "sourceAnswer": "Studentischer Import: 3; einzeln geprüft 2026-11-10",
+    "explanation": "",
+    "flags": [],
+    "independentExplanation": "Regelkarte, Fehlersammelliste und Stratifikation gehören zu den klassischen Q7. PDCA ist ein Verbesserungszyklus. Varianten der siebten Werkzeugliste ändern diese Abgrenzung nicht.",
+    "explanationStatus": "Einzeln im Audit geprüft; keine offizielle Musterlösung.",
+    "assessmentStatus": "verified",
+    "catalogRevision": "audit-2026-11-10",
+    "source": {
+      "kind": "student-import",
+      "path": "imported-questions/grundlagen_der_betriebs_und_unternehmensfuerung_fragenkatalog.json",
+      "index": 177,
+      "answerIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "auditSources": [
+      "q7",
+      "pdca"
+    ],
+    "editorialDecision": "Regelkarte, Fehlersammelliste und Stratifikation gehören zu den klassischen Q7. PDCA ist ein Verbesserungszyklus. Varianten der siebten Werkzeugliste ändern diese Abgrenzung nicht."
   }
 ]

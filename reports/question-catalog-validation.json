@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "catalogCount": 278,
+  "legacyIdsPreserved": 273,
+  "newIds": [
+    274,
+    275,
+    276,
+    277,
+    278
+  ],
+  "eligibleCount": 203,
+  "readingOnlyCount": 75,
+  "examChapterCounts": {
+    "Produktion": 15,
+    "Logistik": 21,
+    "Qualitätsmanagement": 16,
+    "Absatzmanagement": 17,
+    "Innovationsmanagement": 13,
+    "Strategisches Management": 19,
+    "Kosten- und Erfolgsrechnung": 29,
+    "Finanzmanagement": 16,
+    "Organisation": 17,
+    "Personalmanagement": 19,
+    "Unternehmenskooperation": 15,
+    "Weitere Themen / Nachhaltigkeit": 6
+  },
+  "classifications": {
+    "A": 3,
+    "B": 121,
+    "C": 12,
+    "D": 4,
+    "E": 5,
+    "F": 32
+  },
+  "originalImportSha256": "767f3a9fdd6724aa81c2634aba475c28ce3473f7172f9f361f1485497f6b913a",
+  "exactDuplicateGroups": [],
+  "realBrowserDataTested": false
+}

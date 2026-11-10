@@ -19,7 +19,7 @@ Das Projekt hilft dabei, eigene Lernmaterialien wiederholt zu bearbeiten und den
 
 ## Technologien und Voraussetzungen
 
-HTML, CSS und Vanilla JavaScript; JSON als Fragenformat, LocalStorage für den Lernstand und Cache Storage für die PWA. Kein Backend, kein Framework, kein Paketmanager und kein Buildprozess.
+HTML, CSS und Vanilla JavaScript; JSON als Fragenformat, LocalStorage für den Lernstand und Cache Storage für die PWA. Kein Backend, kein Framework und kein Paketmanager. Ein optionaler Produktionsschritt prüft und verpackt die statischen Dateien.
 
 Benötigt werden ein moderner Browser und für den folgenden lokalen Start Python 3. Der optionale PDF-Importer benötigt zusätzlich PyMuPDF. Für die App selbst müssen keine Dependencies installiert werden.
 
@@ -31,7 +31,7 @@ cd gbu-lernstudio
 python3 -m http.server 8080 --bind 127.0.0.1
 ```
 
-Anschließend [localhost:8080](http://localhost:8080) öffnen. Beenden mit `Ctrl+C`. Die HTML-Datei nicht direkt über `file://` öffnen. Einen Buildbefehl gibt es nicht.
+Anschließend [localhost:8080](http://localhost:8080) öffnen. Beenden mit `Ctrl+C`. Die HTML-Datei nicht direkt über `file://` öffnen. Der optionale Produktionsschritt ist `python3 scripts/build.py` (zusätzlich Node.js für JavaScript-Prüfungen erforderlich); das Ergebnis liegt in `dist/`. Er veröffentlicht nichts.
 
 Die mitgelieferte `questions.json` wird beim Start geladen. Ohne diese Datei lädt die App `examples/questions.demo.json`. Eigene autorisierte Daten werden wie in [Datenformat und Import](docs/DATEN.md) beschrieben lokal bereitgestellt. Der Python-Webserver stellt auch ignorierte Dateien im gewählten Ordner bereit: nur lokal betreiben und bei öffentlichem Hosting ausschließlich freigegebene Dateien hochladen.
 
@@ -65,7 +65,7 @@ docs/DATEN.md                Datenformat und lokale Quelldaten
 
 Versuche enthalten Frage-ID, Zeitstempel, Antwortauswahl, Korrektheit, Punkte und Modus. Sie werden mit Einstellungen und Lesemarkierungen im Browser gespeichert (`gbu-study-v1`); Farbschema und letzte Antwortreihenfolge verwenden weitere LocalStorage-Schlüssel. Es gibt keine Konten, Synchronisierung oder eingebauten Analyse- und Trackingdienste. Der Webserver erhält übliche Dateianfragen; externe Links werden beim Öffnen extern abgerufen.
 
-Browserdaten sind weder verschlüsselt noch geräteübergreifend gesichert. Der JSON-Export enthält **nicht** die Lesemarkierungen, die letzte Antwortreihenfolge oder das separat gespeicherte Farbschema; eine Import-/Wiederherstellungsfunktion ist nicht implementiert. Löschen der Website-Daten entfernt den lokalen Fortschritt. Fragenbank-IDs nach Beginn des Lernens stabil halten.
+Browserdaten sind weder verschlüsselt noch geräteübergreifend gesichert. Der JSON-Export enthält alle DB-Felder einschließlich Lesemarkierungen und Notizen sowie die rohen App-Storage-Werte mit letzter Antwortreihenfolge und Farbschema. Er verändert den Speicher nicht. Eine automatische Import-/Wiederherstellungsfunktion ist nicht implementiert. Löschen der Website-Daten entfernt den lokalen Fortschritt. Fragenbank-IDs nach Beginn des Lernens stabil halten.
 
 Die Fragenbank `questions.json` wird mit Git versioniert. Die Original-PDF `betriebs-u-fragen.pdf` wird ebenfalls versioniert; andere PDFs bleiben durch `.gitignore` lokal. Sie werden beim Aufrufen vom jeweiligen Webserver an den Browser ausgeliefert. Die öffentliche Offline-Vorablage enthält nur Oberfläche und Demo; private Fragen und PDFs werden nicht gezielt für Offlinebetrieb vorab gespeichert. Service Worker und Installierbarkeit benötigen HTTPS oder localhost; Unterstützung und Installation hängen vom Browser ab.
 
@@ -75,12 +75,24 @@ Die Fragenbank `questions.json` wird mit Git versioniert. Die Original-PDF `betr
 - PDF-Links in der Oberfläche öffnen die mitgelieferte `betriebs-u-fragen.pdf` auf der jeweiligen Seite.
 - Prüfungsdatum (12.11.2026), Zielnote und UI-Angaben zur 48-Fragen-Prüfung sind fest im Code hinterlegt. Die tatsächliche Fragenzahl hängt von der Zahl der bereitgestellten Kapitel ab.
 - Kein Zeitlimit in der Simulation. Kein Backend, Fortschrittsimport oder Abgleich zwischen Geräten.
-- Keine vorhandene automatisierte Browser-Testsuite. Für diese Veröffentlichung wurden Syntax, Datenformat und Kernlogik geprüft. Ein lokaler HTTP-Start wurde versucht, aber die Ausführungsumgebung blockiert das Öffnen eines Serverports. HTTP-, visuelle Browser- und Gerätetests stehen daher aus.
+- Automatisierte Schema-, Katalog-, Bewertungs- und Fortschrittsregressionstests sind vorhanden (Python 3 und Node.js). Die App-Funktionen werden mit synthetischem Storage und einer isolierten DOM-Testumgebung geprüft. Tests an echten Browserdaten und visuelle Gerätetests stehen aus.
 
 ## Weiterentwicklung
 
-Mögliche nächste Schritte sind ein konfigurierbares Prüfungsdatum, Validierung eigener Datensätze, vollständiger Fortschrittsimport und automatisierte Browsertests. Diese Funktionen sind noch nicht implementiert. Änderungen sollten ohne private Lernmaterialien eingereicht und gegen Demo sowie eigene autorisierte Daten geprüft werden.
+Mögliche nächste Schritte sind ein konfigurierbares Prüfungsdatum, vollständiger Fortschrittsimport und visuelle Browsertests. Diese Funktionen sind noch nicht implementiert. Änderungen sollten ohne private Lernmaterialien eingereicht und gegen Demo sowie eigene autorisierte Daten geprüft werden.
 
 ## Lizenzstatus
 
 Es wurde keine Open-Source-Lizenz festgelegt; das öffentliche Repository erteilt keine zusätzliche pauschale Nutzungslizenz. Rechte an fremden Lernmaterialien verbleiben bei den jeweiligen Rechteinhabern. Eine spätere Lizenzwahl für den eigenen Code muss separat erfolgen und kann keine Rechte an fremden Inhalten einräumen.
+
+## Fragenkatalog-Audit und Prüfungen
+
+Der [Auditbericht](reports/question-catalog-audit.md) ordnet jede der 177 studentischen Importfragen zu. Der finale Bestand umfasst 278 Fragen; 203 erfüllen das aktuelle Bewertungsformat. Ungeklärte Fragen bleiben mit ihren IDs im Lesebuch erhalten. Die maschinenlesbare Fassung liegt in [question-catalog-audit.json](reports/question-catalog-audit.json).
+
+```sh
+python3 scripts/validate_catalog.py
+node --test tests/catalog.test.cjs
+python3 scripts/build.py
+```
+
+Vor einem Update kann der bestehende Export-Button eine vollständige JSON-Sicherung erzeugen. Die App verwendet weiterhin dieselbe Origin und `gbu-study-v1`; Website-Daten nicht löschen. Historische Versuche behalten ihre gespeicherten Punkte und Bewertungen, auch wenn sich eine aktuelle Lösung ändert. Neue Versuche enthalten zusätzlich einen Snapshot des aktuellen Schlüssels. Alte Versuche erlauben keine verlässliche Rekonstruktion einer früheren Katalogversion.

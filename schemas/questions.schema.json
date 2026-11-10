@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GBU stable question catalog",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": ["id", "chapter", "page", "text", "correctCount", "options", "answers", "sourceAnswer", "explanation", "flags"],
+    "properties": {
+      "id": {"type": "integer", "minimum": 1},
+      "chapter": {"type": "string", "minLength": 1},
+      "page": {"type": "integer", "minimum": 0},
+      "text": {"type": "string", "minLength": 1},
+      "correctCount": {"type": "integer", "minimum": 1, "maximum": 4},
+      "options": {"type": "array", "minItems": 3, "maxItems": 5, "items": {"type": "string", "minLength": 1}},
+      "answers": {"type": "array", "uniqueItems": true, "items": {"type": "integer", "minimum": 0, "maximum": 4}},
+      "sourceAnswer": {"type": "string"},
+      "explanation": {"type": "string"},
+      "flags": {"type": "array", "items": {"type": "string"}},
+      "assessmentStatus": {"enum": ["verified", "source-only", "unresolved"]},
+      "catalogRevision": {"type": "string"},
+      "auditSources": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+      "source": {
+        "type": "object",
+        "required": ["kind", "path", "index", "answerIds"],
+        "properties": {
+          "kind": {"const": "student-import"},
+          "path": {"type": "string", "minLength": 1},
+          "index": {"type": "integer", "minimum": 1},
+          "answerIds": {"type": "array", "uniqueItems": true, "items": {"type": "integer", "minimum": 1}}
+        }
+      }
+    },
+    "additionalProperties": true
+  }
+}
