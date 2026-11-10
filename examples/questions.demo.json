@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "chapter": "Demo: Lernstudio bedienen",
+    "page": 1,
+    "text": "Welche Vorgehensweisen helfen beim eigenständigen Lernen?",
+    "correctCount": 2,
+    "options": [
+      "Regelmäßig üben und Fehler nacharbeiten.",
+      "Lösungen ungeprüft auswendig lernen.",
+      "Lerninhalte in eigenen Worten erklären.",
+      "Pausen grundsätzlich vermeiden."
+    ],
+    "answers": [
+      0,
+      2
+    ],
+    "sourceAnswer": "Selbst formulierter Beispieldatensatz: 1 und 3",
+    "explanation": "Üben und eigenes Erklären unterstützen die aktive Auseinandersetzung mit Lerninhalten.",
+    "flags": [],
+    "independentExplanation": "Diese Demonstrationsfrage zeigt Auswahl und Rückmeldung im Lernstudio.",
+    "memoryExample": "Erkläre einer anderen Person, wie du eine Aufgabe gelöst hast.",
+    "explanationStatus": "Selbst formuliertes Beispiel; keine Originalprüfungsfrage."
+  }
+]

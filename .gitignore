@@ -1,0 +1,46 @@
+# Secrets und private Konfiguration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+.npmrc
+.aws/
+.ssh/
+.codex/
+.agents/
+*credentials*
+*secrets*
+# Abhängigkeiten und erzeugte Dateien
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+dist/
+build/
+.cache/
+.pytest_cache/
+coverage/
+*.log
+*.tmp
+*.swp
+.DS_Store
+.idea/
+.vscode/
+# Private Lernmaterialien und abgeleitete Inhalte
+*.pdf
+questions.json
+local-data/
+private/
+*lernfortschritt*.json
+CONFLICT_DECISIONS.md
+IMPORT_REVIEW.md
+KONTEXT_*.md
+KONTEXT_*.csv
+REPARATUR*.md
+REPARATUR*.csv
+VERSION_*.md
