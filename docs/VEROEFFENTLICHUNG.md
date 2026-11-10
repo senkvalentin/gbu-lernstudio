@@ -1,6 +1,6 @@
 # Veröffentlichung und Repository-Einstellungen
 
-Aktueller Stand: Auf Wunsch des Repository-Inhabers wird `questions.json` mit versioniert und veröffentlicht. Die nachstehenden Angaben dokumentieren die frühere Erstveröffentlichung mit Demodaten. Die Original-PDF und lokalen Prüfprotokolle bleiben ausgeschlossen.
+Aktueller Stand: Auf Wunsch des Repository-Inhabers werden `questions.json` und `betriebs-u-fragen.pdf` mit versioniert und veröffentlicht. Die nachstehenden Angaben dokumentieren die frühere Erstveröffentlichung mit Demodaten. Lokale Prüfprotokolle bleiben ausgeschlossen.
 
 Für die öffentliche Erstveröffentlichung wurden ausschließlich diese Dateien geprüft: `.gitignore`, `README.md`, `app.js`, `build_data.py`, `docs/`, `examples/questions.demo.json`, `icon.svg`, `index.html`, `manifest.webmanifest`, `style.css`, `sw.js`.
 

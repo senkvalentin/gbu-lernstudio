@@ -4,7 +4,7 @@ Eine interaktive Lernplattform zur Vorbereitung auf die Lehrveranstaltung Grundl
 
 **Unabhängiges studentisches Lernprojekt. Keine offizielle Anwendung der TU Wien.**
 
-Das Projekt hilft dabei, eigene Lernmaterialien wiederholt zu bearbeiten und den persönlichen Übungsstand im Blick zu behalten. Das Repository enthält die Fragenbank `questions.json` sowie eine selbst formulierte Demonstrationsfrage als Fallback. Die Original-PDF und lokale Prüfprotokolle bleiben ausgeschlossen.
+Das Projekt hilft dabei, eigene Lernmaterialien wiederholt zu bearbeiten und den persönlichen Übungsstand im Blick zu behalten. Das Repository enthält die Fragenbank `questions.json` sowie eine selbst formulierte Demonstrationsfrage als Fallback. Die Original-PDF `betriebs-u-fragen.pdf` ist ebenfalls enthalten. Lokale Prüfprotokolle bleiben ausgeschlossen.
 
 ## Funktionen
 
@@ -67,12 +67,12 @@ Versuche enthalten Frage-ID, Zeitstempel, Antwortauswahl, Korrektheit, Punkte un
 
 Browserdaten sind weder verschlüsselt noch geräteübergreifend gesichert. Der JSON-Export enthält **nicht** die Lesemarkierungen, die letzte Antwortreihenfolge oder das separat gespeicherte Farbschema; eine Import-/Wiederherstellungsfunktion ist nicht implementiert. Löschen der Website-Daten entfernt den lokalen Fortschritt. Fragenbank-IDs nach Beginn des Lernens stabil halten.
 
-Die Fragenbank `questions.json` wird mit Git versioniert. PDFs bleiben durch `.gitignore` lokal. Sie werden beim Aufrufen vom jeweiligen Webserver an den Browser ausgeliefert. Die öffentliche Offline-Vorablage enthält nur Oberfläche und Demo; private Fragen und PDFs werden nicht gezielt für Offlinebetrieb vorab gespeichert. Service Worker und Installierbarkeit benötigen HTTPS oder localhost; Unterstützung und Installation hängen vom Browser ab.
+Die Fragenbank `questions.json` wird mit Git versioniert. Die Original-PDF `betriebs-u-fragen.pdf` wird ebenfalls versioniert; andere PDFs bleiben durch `.gitignore` lokal. Sie werden beim Aufrufen vom jeweiligen Webserver an den Browser ausgeliefert. Die öffentliche Offline-Vorablage enthält nur Oberfläche und Demo; private Fragen und PDFs werden nicht gezielt für Offlinebetrieb vorab gespeichert. Service Worker und Installierbarkeit benötigen HTTPS oder localhost; Unterstützung und Installation hängen vom Browser ab.
 
 ## Bekannte Einschränkungen
 
 - Automatische PDF-Extraktion kann Texte, Lösungen und Kapitel falsch zuordnen. Inhalte vor Nutzung manuell prüfen; keine fachliche Richtigkeits- oder Erfolgsgarantie.
-- PDF-Links in der Oberfläche setzen eine eigene autorisierte `betriebs-u-fragen.pdf` voraus; in der öffentlichen Demo führen sie ohne diese Datei ins Leere.
+- PDF-Links in der Oberfläche öffnen die mitgelieferte `betriebs-u-fragen.pdf` auf der jeweiligen Seite.
 - Prüfungsdatum (12.11.2026), Zielnote und UI-Angaben zur 48-Fragen-Prüfung sind fest im Code hinterlegt. Die tatsächliche Fragenzahl hängt von der Zahl der bereitgestellten Kapitel ab.
 - Kein Zeitlimit in der Simulation. Kein Backend, Fortschrittsimport oder Abgleich zwischen Geräten.
 - Keine vorhandene automatisierte Browser-Testsuite. Für diese Veröffentlichung wurden Syntax, Datenformat und Kernlogik geprüft. Ein lokaler HTTP-Start wurde versucht, aber die Ausführungsumgebung blockiert das Öffnen eines Serverports. HTTP-, visuelle Browser- und Gerätetests stehen daher aus.

@@ -1,6 +1,6 @@
 # Fragenbank und lokale Lernmaterialien
 
-Nur Material verwenden, für das du die erforderlichen Nutzungsrechte hast. Eine lokale Nutzungserlaubnis ist keine Freigabe für öffentliche Weitergabe. Die Fragenbank `questions.json` ist Bestandteil des Repositorys. Das Original-PDF und lokale Prüfprotokolle bleiben ausgeschlossen.
+Nur Material verwenden, für das du die erforderlichen Nutzungsrechte hast. Eine lokale Nutzungserlaubnis ist keine Freigabe für öffentliche Weitergabe. Die Fragenbank `questions.json` ist Bestandteil des Repositorys. Das Original-PDF `betriebs-u-fragen.pdf` ist ebenfalls enthalten. Lokale Prüfprotokolle bleiben ausgeschlossen.
 
 ## Fragenbank
 
@@ -27,9 +27,9 @@ Training und Simulation berücksichtigen nur vier Antwortoptionen, ein bis drei 
 
 Für die vorgesehene Simulation zwölf Kapitel mit jeweils mindestens vier geeigneten Fragen bereitstellen. Mit anderen Kapitelzahlen erzeugt die bestehende Logik vier Fragen pro Kapitel; die Oberfläche nennt weiterhin 48 Fragen.
 
-## Optionales PDF
+## Original-PDF
 
-Ein eigenes autorisiertes PDF kann lokal als `betriebs-u-fragen.pdf` abgelegt werden, damit die Seitenlinks funktionieren. PDFs niemals allein wegen ihrer Verfügbarkeit veröffentlichen.
+Die mitgelieferte `betriebs-u-fragen.pdf` wird mit Git versioniert und dient als Ziel der Seitenlinks. Andere PDFs bleiben durch `.gitignore` ausgeschlossen.
 
 `build_data.py` ist ein historischer, heuristischer Importer mit festen Pfaden unter `/mnt/data`. Er ist kein allgemeiner oder verlustfreier PDF-Konverter und rekonstruiert die späteren manuellen Überarbeitungen nicht. Zur Verwendung eine lokale Kopie unter `private/` anlegen, Ein- und Ausgabepfad darin anpassen und eine virtuelle Umgebung mit `python3 -m venv .venv` erstellen. Danach `.venv/bin/python -m pip install PyMuPDF` und `.venv/bin/python private/build_data.py` ausführen. Ergebnis einschließlich Lösungen und Seitenzuordnung manuell prüfen. Die Web-App braucht diesen Importer nicht.
 
