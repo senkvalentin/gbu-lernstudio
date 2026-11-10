@@ -107,10 +107,10 @@ test('Complete audit covers immutable import and all new questions exactly once'
 });
 test('Service worker refresh targets only its own file cache and retains the storage architecture',async()=>{
  const handlers={},deleted=[],opened=[];
- const context=vm.createContext({self:{skipWaiting(){},clients:{claim(){}},addEventListener:(event,fn)=>{handlers[event]=fn}},caches:{keys:async()=>['gbu-public-1','other-app-cache','gbu-public-audit-2026-11-10'],delete:async key=>{deleted.push(key)},open:async key=>{opened.push(key);return {addAll:async assets=>{assert.ok(assets.includes('./app.js?v=audit-2026-11-10'))}}}}});
+ const context=vm.createContext({self:{skipWaiting(){},clients:{claim(){}},addEventListener:(event,fn)=>{handlers[event]=fn}},caches:{keys:async()=>['gbu-public-1','other-app-cache','gbu-public-v0.10'],delete:async key=>{deleted.push(key)},open:async key=>{opened.push(key);return {addAll:async assets=>{assert.ok(assets.includes('./app.js?v=0.10'))}}}}});
  vm.runInContext(fs.readFileSync(path.join(root,'sw.js'),'utf8'),context);
  let pending;handlers.install({waitUntil:p=>{pending=p}});await pending;
  handlers.activate({waitUntil:p=>{pending=p}});await pending;
- assert.deepEqual(deleted,['gbu-public-1']);assert.deepEqual(opened,['gbu-public-audit-2026-11-10']);
- assert.ok(fs.readFileSync(path.join(root,'index.html'),'utf8').includes('app.js?v=audit-2026-11-10'));
+ assert.deepEqual(deleted,['gbu-public-1']);assert.deepEqual(opened,['gbu-public-v0.10']);
+ assert.ok(fs.readFileSync(path.join(root,'index.html'),'utf8').includes('app.js?v=0.10'));
 });
